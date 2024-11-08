@@ -1,0 +1,100 @@
+a) A cloud-based platform for IT service management
+c) Incident Management
+a) Configuration Management Database
+b) Change Manager
+d) Service Catalog
+b) JavaScript
+b) Service Introduction
+a) Service Level Agreement
+c) Asset Management
+a) HR Service Delivery
+b) To store and share knowledge articles
+b) Change Management
+b) Incident
+a) Change Approval Board
+c) To request IT services and products
+b) To automate actions based on conditions
+c) Problem Management
+d) Customer Service Management
+b) To represent a collection of Configuration Items (CIs)
+b) Workflow Automation
+c) Requested Item
+d) Software Asset Management
+c) Information Technology Service Management
+b) Contract Management
+a) To define the level of service expected by the customer
+a) Increased operational costs
+a) Identity Management
+a) Priority 1
+a) Configuration Management Database Configuration Item
+b) Service Catalog
+c) To request changes to IT infrastructure or services
+b) To track and resolve service interruptions or outages
+c) Software Asset Management
+a) Information Technology Infrastructure Library
+a) HR Service Delivery
+b) To track hardware inventory and relationships between Configuration Items (CIs)
+d) Training
+a) Performance Management
+b) The time taken to respond to an incident after it is reported
+b) To prevent incidents from recurring
+b) Leave Management
+a) To request a change to IT infrastructure or services
+b) To manage changes to IT infrastructure or services
+a) Expense Management
+b) Requested Item
+b) To automate actions based on conditions
+b) Managing employee salaries
+b) To store and share knowledge articles
+b) To request IT services and products
+c) Ticket
+a) To define the level of service expected by the customer
+b) Training Management
+b) Configuration Management Database
+b) To track and resolve service interruptions or outages
+d) Manufacturing process management
+a) Expense Management
+b) To automate actions based on conditions
+a) Increased operational costs
+a) Information Technology Service Management
+b) To manage changes to IT infrastructure or services
+c) Software Asset Management
+b) To prevent incidents from recurring
+b) Requested Item Task Management
+b) To track hardware inventory and relationships between Configuration Items (CIs)
+d) Training
+b) Leave Management
+a) To request a change to IT infrastructure or services
+b) To manage changes to IT infrastructure or services
+a) Expense Management
+a) Requested Incident Task Management
+b) To track hardware inventory and relationships between Configuration Items (CIs)
+d) Training
+b) Leave Management
+a) To request a change to IT infrastructure or services
+b) To manage changes to IT infrastructure or services
+a) Expense Management
+b) Requested Item Task Management
+b) To track hardware inventory and relationships between Configuration Items (CIs)
+d) Training
+b) Leave Management
+a) To request a change to IT infrastructure or services
+b) To manage changes to IT infrastructure or services
+a) Expense Management
+b) Requested Incident Task Management
+b) To track hardware inventory and relationships between Configuration Items (CIs)
+d) Training
+b) Leave Management
+a) To request a change to IT infrastructure or services
+b) To manage changes to IT infrastructure or services
+a) Expense Management
+b) Requested Item Task Management
+b) To track hardware inventory and relationships between Configuration Items (CIs)
+d) Training
+b) Leave Management
+a) To request a change to IT infrastructure or services
+b) To manage changes to IT infrastructure or services
+a) Expense Management
+a) Requested Incident Task Management
+b) To track hardware inventory and relationships between Configuration Items (CIs)
+d) Training

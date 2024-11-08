@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDatum | DATA PRAVACHAN</title>
+    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <link rel="stylesheet" href="DATA PRAVACHAN.css">
+
+    <nav>
+        <div class="asd">
+            
+            <h1>EDATUM</h1>
+            
+        </div>
+           
+       
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Events</a></li>
+            <li><a href="#">Gallery</a></li>
+         <div class="dadadadadad">
+          <a href="index.html">  <li> <button class="login-button">  Contact Us </button></li> </a>
+         </div>
+           
+        </ul>
+
+
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+    
+    hamburger.addEventListener('click', ()=>{
+       //Animate Links
+        navLinks.classList.toggle("open");
+        links.forEach(link => {
+            link.classList.toggle("fade");
+        });
+    
+        //Hamburger Animation
+        hamburger.classList.toggle("toggle");
+    });
+        </script>
+    </nav>
+    <div class="Eventssssss">
+        <div class="EventsList">
+            
+            <div class="EventPic">
+                <h3>04</h3>
+                <img src="Data Pravachan Team.jpg" alt="">
+            </div>
+           
+            <div class="EventDetails">
+                <h1>DATA PRAVACHAN</h1>
+                <p>
+                   <b><u> SUMMARY: </u>  </b>  <br><br>
+                   ✨Data pravachan simplifies complex information, using visuals to tell a compelling story and make data easily understandable.
+<br>
+<br> <b><u>  DESCRIPTION:</u></b><br><br>
+👀This competition requires you to showcase your ability to effectively communicate insights from a dataset using narratives and visualizations.
+
+➡To participate in this contest, follow these steps:
+
+<br>1.Familiarize yourself with the provided data set.
+
+<br>2.Conduct an analysis of the data to identify patterns and insights.
+
+<br>3.A verbal or written narrative,also called storyline, is required to express the possible insights hidden in the data.
+
+<br>4.Prepare a clear visual representation of your narrative, which will be useful for communicating its story clearly and memorably.
+
+<br>5.Ensure that your presentation is original and not copied from any other source.
+
+<br>6.🚫Duplicate presentation will not be permitted.
+
+                </p>
+                <div class="Registration">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6swhInX79STYNGSbFabhjBlz62KdJzN4w6GgKKoFjEk_v_A/viewform" class="button">  Register Now</a>
+                    
+                </div>
+            </div>
+        
+    </div>
+    </div>
+</body>
+</html>

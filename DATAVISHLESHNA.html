@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon">
+    <title>EDatum | DATA VISHLESHNA</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <link rel="stylesheet" href="DATAVISHLESHNA.css">
+
+    <nav>
+        <div class="asd">
+            
+            <h1>EDATUM</h1>
+            
+        </div>
+           
+       
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Events</a></li>
+            <li><a href="#">Gallery</a></li>
+         <div class="dadadadadad">
+          <a href="index.html">  <li> <button class="login-button">  Contact Us </button></li> </a>
+         </div>
+           
+        </ul>
+       
+
+
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+    
+    hamburger.addEventListener('click', ()=>{
+       //Animate Links
+        navLinks.classList.toggle("open");
+        links.forEach(link => {
+            link.classList.toggle("fade");
+        });
+    
+        //Hamburger Animation
+        hamburger.classList.toggle("toggle");
+    });
+        </script>
+    </nav>
+    <div class="Eventssssss">
+        <div class="EventsList">
+            
+            <div class="EventPic">
+                <h3>01</h3>
+                <img src="Data Vishleshana.jpg" alt="">
+            </div>
+           
+            <div class="EventDetails">
+                <h1>DATA VISHLESHNA</h1>
+                <p>
+                   <b><u> SUMMARY: </u>  </b>  <br><br>
+A technical quiz is like a fun challenge where people answer questions related to technology. It tests your knowledge about computers, gadgets, and other technical stuff. It's a great way to learn and have some friendly competition with others who are interested in tech!
+<br>
+<br> <b><u>  DESCRIPTION:</u></b><br><br>
+Tech quiz is like a brain workout! 🧠🔧 Test your IT smarts with questions on coding, gadgets, and geeky stuff. Fun way to flex those tech muscles! 🚀 
+<br>1.Overall event is going to be conducted in “Two “ levels.
+
+<br>2.Each level contains certain number of question.
+
+<br>3.In each level each question carries points to earn.
+
+<br>4.Participants should reach the boundary of qualifying points for further participation in next levels.
+
+<br>5.⏰Time will be limited for each level based on number of questions.
+
+<br>6.Most of the questions might be framed on Data analysis (Dataset / pictorial charts📊 / informative paragraphs etc.,)
+
+<br>7.Automatically quiz will be submitted once the time limit is completed.
+
+                </p>
+                <div class="Registration">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdprthxjYOfL7zbqmmLj5FTqDQMy3dxetuFmul5Wq6DypqDUA/viewform" class="button">  Register Now</a>
+                    
+                </div>
+            </div>
+        
+    </div>
+    </div>
+</body>
+</html>

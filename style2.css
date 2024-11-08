@@ -1,0 +1,113 @@
+*{
+   
+    font-family: 'Outfit', sans-serif;
+   margin: 0;
+   padding: 0;
+    /* border: 2px solid red; */
+}
+
+.EventsTab{
+ 
+    height: auto;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.EventText{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    color: #E4FFD3;
+    margin-top: 5%;
+    color: transparent; 
+        background-image: url("About\ Background.jpg"); 
+        background-size:contain; 
+        background-clip: text; 
+        -webkit-background-clip: text; 
+    
+}
+.EventsList{
+    width: 80vw;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding:8% 8%;
+    z-index: 4;
+}
+.EventPic{
+    width: 50%;
+}
+.EventPic img{
+    width: 550px;
+    height: 350px;
+    box-shadow: 30px 30px 0px rgba(189 , 255, 0, 1);  
+     
+}
+.EventDetails{
+    padding-top: 8%;
+}
+.EventDetails h1{
+    color: white;
+    font-size: 50px;
+    text-align: left;
+ }
+ .WhiteSpace{
+    margin: 5%;
+ }
+ .EventDetails p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 200%;
+    padding: 40px 0;
+}
+
+ 
+.Registration .button{
+    background-color: #0037C4;
+    width: 150px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    margin-left: 0;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+.Registration a{
+    padding: 20px 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 3%;
+    font-family: sans-serif;
+    
+    
+} 
+
+.EventPic h3{
+    z-index: -1;
+    font-size: 100px;
+    font-family: 'Noto Sans Meetei Mayek', sans-serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom, #3879F5, #000E33,#000E33);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    margin: 0%;
+    margin-bottom: -8%;
+ }
+
+ .Eventline{
+    width: 90%;
+    height: 2px;
+    background-color: rgb(79, 79, 79);
+ }

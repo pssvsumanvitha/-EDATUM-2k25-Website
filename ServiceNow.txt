@@ -1,0 +1,609 @@
+Here's a list of 100 multiple-choice questions (MCQs) covering various aspects of ServiceNow. These questions are designed to test your knowledge of ServiceNow concepts, functionalities, and best practices:
+
+1. What is ServiceNow?
+   a) A cloud-based platform for IT service management
+   b) A social media platform
+   c) A hardware manufacturing company
+   d) A mobile gaming application
+
+2. Which of the following modules is commonly used for Incident Management in ServiceNow?
+   a) Change Management
+   b) Service Catalog
+   c) Incident Management
+   d) Asset Management
+
+3. What does CMDB stand for in ServiceNow?
+   a) Configuration Management Database
+   b) Change Management Database
+   c) Customer Management Database
+   d) Computer Management Database
+
+4. Which role in ServiceNow is responsible for approving change requests?
+   a) Incident Manager
+   b) Change Manager
+   c) Problem Manager
+   d) Service Desk Analyst
+
+5. Which ServiceNow module is used to manage service requests from users?
+   a) Incident Management
+   b) Problem Management
+   c) Change Management
+   d) Service Catalog
+
+6. Which scripting language is primarily used for server-side scripting in ServiceNow?
+   a) Python
+   b) JavaScript
+   c) Java
+   d) C#
+
+7. Which of the following is NOT a phase in the ITIL Service Lifecycle?
+   a) Service Operation
+   b) Service Introduction
+   c) Service Strategy
+   d) Service Transition
+
+8. What does SLA stand for in ServiceNow?
+   a) Service Level Agreement
+   b) Service Lifecycle Assessment
+   c) Service Level Assessment
+   d) Service Level Arrangement
+
+9. Which ServiceNow module is used for tracking and managing hardware and software assets?
+   a) Incident Management
+   b) Change Management
+   c) Asset Management
+   d) Problem Management
+
+10. Which ServiceNow module is used for managing employee onboarding and offboarding processes?
+    a) HR Service Delivery
+    b) Service Catalog
+    c) Asset Management
+    d) Incident Management
+
+11. What is the purpose of the Knowledge Management module in ServiceNow?
+    a) To manage employee salaries
+    b) To store and share knowledge articles
+    c) To track hardware inventory
+    d) To manage software licenses
+
+12. Which ServiceNow module is used for managing scheduled maintenance activities?
+    a) Incident Management
+    b) Change Management
+    c) Problem Management
+    d) Service Level Management
+
+13. Which type of record in ServiceNow represents a single incident reported by a user?
+    a) Catalog Item
+    b) Incident
+    c) Change Request
+    d) Knowledge Article
+
+14. What does CAB stand for in the context of ServiceNow Change Management?
+    a) Change Approval Board
+    b) Centralized Access Board
+    c) Configuration Asset Base
+    d) Customer Advisory Board
+
+15. What is the purpose of the Service Catalog module in ServiceNow?
+    a) To manage employee benefits
+    b) To track hardware inventory
+    c) To request IT services and products
+    d) To manage customer complaints
+
+16. What is the primary purpose of a Business Rule in ServiceNow?
+    a) To generate reports
+    b) To automate actions based on conditions
+    c) To manage user roles and permissions
+    d) To design user interfaces
+
+17. Which ServiceNow module is used for tracking and resolving issues that impact multiple users or services?
+    a) Incident Management
+    b) Change Management
+    c) Problem Management
+    d) Asset Management
+
+18. Which ServiceNow module is used for managing customer inquiries and support tickets?
+    a) Incident Management
+    b) Problem Management
+    c) Change Management
+    d) Customer Service Management
+
+19. What is the purpose of a Business Service in ServiceNow?
+    a) To manage employee salaries
+    b) To represent a collection of Configuration Items (CIs)
+    c) To request new software installations
+    d) To track hardware inventory
+
+20. Which ServiceNow module is used for automating repetitive tasks and workflows?
+    a) Incident Management
+    b) Workflow Automation
+    c) Change Management
+    d) Asset Management
+
+21. What does RITM stand for in ServiceNow?
+    a) Request Item
+    b) Requested IT Model
+    c) Requested Item
+    d) Requested Incident Task Management
+
+22. Which ServiceNow module is used for managing the lifecycle of software applications?
+    a) Incident Management
+    b) Problem Management
+    c) Change Management
+    d) Software Asset Management
+
+23. What does ITSM stand for in the context of ServiceNow?
+    a) Information Technology System Management
+    b) Incident Tracking and Service Management
+    c) Information Technology Service Management
+    d) Internal Ticketing System Management
+
+24. Which ServiceNow module is used for managing contracts, procurement, and vendor relationships?
+    a) Asset Management
+    b) Contract Management
+    c) Change Management
+    d) Procurement Management
+
+25. What is the purpose of the Service Level Agreement (SLA) in ServiceNow?
+    a) To define the level of service expected by the customer
+    b) To manage employee salaries
+    c) To track hardware inventory
+    d) To manage software licenses
+
+26. Which of the following is NOT a benefit of using ServiceNow?
+    a) Improved service delivery and customer satisfaction
+    b) Reduced operational costs and increased efficiency
+    c) Increased hardware complexity
+    d) Enhanced visibility and control over IT processes
+
+27. Which ServiceNow module is used for managing user access and permissions?
+    a) Identity Management
+    b) Access Control
+    c) User Administration
+    d) Incident Management
+
+28. What does P1 represent in the context of Incident Management in ServiceNow?
+    a) Priority 1
+    b) Problem 1
+    c) Phase 1
+    d) Permission 1
+
+29. What does CMDB CI stand for in ServiceNow?
+    a) Configuration Management Database Configuration Item
+    b) Computer Management Database Configuration Item
+    c) Configuration Management Database Control Item
+    d) Customer Management Database Configuration Item
+
+30. Which ServiceNow module is used for managing and tracking employee requests for new hardware or software?
+    a) Asset Management
+    b) Service Catalog
+    c) Incident Management
+    d) Change Management
+
+31. What is the purpose of a Change Request in ServiceNow?
+    a) To track hardware inventory
+    b) To manage employee salaries
+    c) To request changes to IT infrastructure or services
+    d) To manage customer complaints
+
+32. What is the primary function of the ServiceNow Incident Management module?
+    a) To manage changes to IT infrastructure
+    b) To track and resolve service interruptions or outages
+    c) To manage employee benefits
+    d) To track hardware inventory
+
+33. Which ServiceNow module is used for managing and tracking software licenses?
+    a) Asset Management
+    b) License Management
+    c) Software Asset Management
+    d) Change Management
+
+34. What does ITIL stand for in the context of IT Service Management?
+    a) Information Technology Infrastructure Library
+    b) Information Technology Incident Log
+
+
+    c) Integrated Technology and Information Library
+    d) International Technology Innovation Laboratory
+
+35. Which ServiceNow module is used for managing and tracking employee training and certifications?
+    a) HR Service Delivery
+    b) Training Management
+    c) Employee Relations
+    d) Incident Management
+
+36. What is the purpose of the Configuration Management Database (CMDB) in ServiceNow?
+    a) To manage employee salaries
+    b) To track hardware inventory and relationships between Configuration Items (CIs)
+    c) To manage customer complaints
+    d) To store and share knowledge articles
+
+37. Which of the following is NOT a phase in the Incident Management process?
+    a) Identification
+    b) Categorization
+    c) Resolution
+    d) Training
+
+38. Which ServiceNow module is used for managing and tracking employee performance evaluations?
+    a) Performance Management
+    b) Incident Management
+    c) Problem Management
+    d) Change Management
+
+39. What does SLA Response Time represent in the context of Incident Management?
+    a) The time taken to resolve an incident
+    b) The time taken to respond to an incident after it is reported
+    c) The time taken to categorize an incident
+    d) The time taken to close an incident
+
+40. What is the primary function of the ServiceNow Problem Management module?
+    a) To manage changes to IT infrastructure
+    b) To prevent incidents from recurring
+    c) To track hardware inventory
+    d) To manage employee benefits
+
+41. Which ServiceNow module is used for managing and tracking employee absences and time off requests?
+    a) Time and Attendance
+    b) Leave Management
+    c) HR Service Delivery
+    d) Incident Management
+
+42. What is the purpose of a Service Request in ServiceNow?
+    a) To request a change to IT infrastructure or services
+    b) To manage hardware inventory
+    c) To manage employee salaries
+    d) To track customer complaints
+
+43. What is the primary function of the ServiceNow Change Management module?
+    a) To track hardware inventory
+    b) To manage changes to IT infrastructure or services
+    c) To manage employee benefits
+    d) To manage customer complaints
+
+44. Which ServiceNow module is used for managing and tracking employee expenses and reimbursements?
+    a) Expense Management
+    b) Incident Management
+    c) Problem Management
+    d) Change Management
+
+45. What does RITM stand for in the context of ServiceNow Request Management?
+    a) Request Item
+    b) Requested Item
+    c) Requested IT Model
+    d) Requested Incident Task Management
+
+46. What is the purpose of the Business Rule in ServiceNow?
+    a) To generate reports
+    b) To automate actions based on conditions
+    c) To manage user roles and permissions
+    d) To design user interfaces
+
+47. Which of the following is NOT a feature of the ServiceNow Service Catalog module?
+    a) Requesting IT services and products
+    b) Managing employee salaries
+    c) Defining service offerings and service level agreements
+    d) Automating service fulfillment processes
+
+48. What is the primary purpose of the Knowledge Management module in ServiceNow?
+    a) To manage employee salaries
+    b) To store and share knowledge articles
+    c) To track hardware inventory
+    d) To manage software licenses
+
+49. What is the purpose of a Catalog Item in ServiceNow?
+    a) To manage employee salaries
+    b) To request IT services and products
+    c) To track hardware inventory
+    d) To store and share knowledge articles
+
+50. Which of the following is NOT a type of record in ServiceNow?
+    a) Incident
+    b) Change Request
+    c) Ticket
+    d) Knowledge Article
+
+51. What is the purpose of the SLA (Service Level Agreement) in ServiceNow?
+    a) To define the level of service expected by the customer
+    b) To track hardware inventory
+    c) To manage software licenses
+    d) To manage employee salaries
+
+52. Which ServiceNow module is used for managing and tracking employee training and certifications?
+    a) HR Service Delivery
+    b) Training Management
+    c) Employee Relations
+    d) Incident Management
+
+53. What does the term "CMDB" stand for in ServiceNow?
+    a) Centralized Management Database
+    b) Configuration Management Database
+    c) Control Management Database
+    d) Customer Management Database
+
+54. What is the primary purpose of the ServiceNow Incident Management module?
+    a) To track hardware inventory
+    b) To manage and resolve service interruptions or outages
+    c) To manage employee salaries
+    d) To store and share knowledge articles
+
+55. Which of the following is NOT a typical use case for ServiceNow?
+    a) IT service management
+    b) HR service delivery
+    c) Customer relationship management
+    d) Manufacturing process management
+
+56. Which ServiceNow module is used for managing and tracking employee expenses and reimbursements?
+    a) Expense Management
+    b) Incident Management
+    c) Problem Management
+    d) Change Management
+
+57. What is the primary purpose of the Business Rule in ServiceNow?
+    a) To generate reports
+    b) To automate actions based on conditions
+    c) To manage user roles and permissions
+    d) To design user interfaces
+
+58. Which of the following is NOT a benefit of using ServiceNow?
+    a) Increased operational costs
+    b) Improved service delivery and customer satisfaction
+    c) Enhanced visibility and control over IT processes
+    d) Reduced time spent on manual tasks
+
+59. What does "ITSM" stand for in the context of ServiceNow?
+    a) Information Technology Service Management
+    b) Integrated Technology System Management
+    c) Internet Technology Service Management
+    d) Infrastructure Technology System Management
+
+60. What is the purpose of the ServiceNow Change Management module?
+    a) To manage changes to IT infrastructure or services
+    b) To track hardware inventory
+    c) To manage employee salaries
+    d) To store and share knowledge articles
+
+61. Which ServiceNow module is used for managing and tracking software licenses?
+    a) Asset Management
+    b) License Management
+    c) Software Asset Management
+    d) Change Management
+
+62. What is the primary function of the ServiceNow Problem Management module?
+    a) To manage changes to IT infrastructure or services
+    b) To prevent incidents from recurring
+    c) To track hardware inventory
+    d) To manage employee benefits
+
+63. What does "RITM" stand for in the context of ServiceNow Request Management?
+    a) Requested Incident Task Management
+    b) Requested Item Task Management
+    c) Requested Incident Task Model
+    d) Requested Item Task Model
+
+64. What is the purpose of the Configuration Management Database (CMDB) in ServiceNow?
+    a) To manage employee salaries
+    b) To track hardware inventory and relationships between Configuration Items (CIs)
+    c) To store and share knowledge articles
+    d) To track customer complaints
+
+65. Which of the following is NOT a phase in the Incident Management process?
+    a) Identification
+    b) Categorization
+    c) Resolution
+    d) Training
+
+66. Which ServiceNow module
+
+ is used for managing and tracking employee absences and time off requests?
+    a) Time and Attendance
+    b) Leave Management
+    c) HR Service Delivery
+    d) Incident Management
+
+67. What is the purpose of a Service Request in ServiceNow?
+    a) To request a change to IT infrastructure or services
+    b) To manage hardware inventory
+    c) To manage employee salaries
+    d) To track customer complaints
+
+68. What is the primary function of the ServiceNow Change Management module?
+    a) To track hardware inventory
+    b) To manage changes to IT infrastructure or services
+    c) To manage employee benefits
+    d) To manage customer complaints
+
+69. Which ServiceNow module is used for managing and tracking employee expenses and reimbursements?
+    a) Expense Management
+    b) Incident Management
+    c) Problem Management
+    d) Change Management
+
+70. What does "RITM" stand for in the context of ServiceNow Request Management?
+    a) Requested Incident Task Management
+    b) Requested Item Task Management
+    c) Requested Incident Task Model
+    d) Requested Item Task Model
+
+71. What is the purpose of the Configuration Management Database (CMDB) in ServiceNow?
+    a) To manage employee salaries
+    b) To track hardware inventory and relationships between Configuration Items (CIs)
+    c) To store and share knowledge articles
+    d) To track customer complaints
+
+72. Which of the following is NOT a phase in the Incident Management process?
+    a) Identification
+    b) Categorization
+    c) Resolution
+    d) Training
+
+73. Which ServiceNow module is used for managing and tracking employee absences and time off requests?
+    a) Time and Attendance
+    b) Leave Management
+    c) HR Service Delivery
+    d) Incident Management
+
+74. What is the purpose of a Service Request in ServiceNow?
+    a) To request a change to IT infrastructure or services
+    b) To manage hardware inventory
+    c) To manage employee salaries
+    d) To track customer complaints
+
+75. What is the primary function of the ServiceNow Change Management module?
+    a) To track hardware inventory
+    b) To manage changes to IT infrastructure or services
+    c) To manage employee benefits
+    d) To manage customer complaints
+
+76. Which ServiceNow module is used for managing and tracking employee expenses and reimbursements?
+    a) Expense Management
+    b) Incident Management
+    c) Problem Management
+    d) Change Management
+
+77. What does "RITM" stand for in the context of ServiceNow Request Management?
+    a) Requested Incident Task Management
+    b) Requested Item Task Management
+    c) Requested Incident Task Model
+    d) Requested Item Task Model
+
+78. What is the purpose of the Configuration Management Database (CMDB) in ServiceNow?
+    a) To manage employee salaries
+    b) To track hardware inventory and relationships between Configuration Items (CIs)
+    c) To store and share knowledge articles
+    d) To track customer complaints
+
+79. Which of the following is NOT a phase in the Incident Management process?
+    a) Identification
+    b) Categorization
+    c) Resolution
+    d) Training
+
+80. Which ServiceNow module is used for managing and tracking employee absences and time off requests?
+    a) Time and Attendance
+    b) Leave Management
+    c) HR Service Delivery
+    d) Incident Management
+
+81. What is the purpose of a Service Request in ServiceNow?
+    a) To request a change to IT infrastructure or services
+    b) To manage hardware inventory
+    c) To manage employee salaries
+    d) To track customer complaints
+
+82. What is the primary function of the ServiceNow Change Management module?
+    a) To track hardware inventory
+    b) To manage changes to IT infrastructure or services
+    c) To manage employee benefits
+    d) To manage customer complaints
+
+83. Which ServiceNow module is used for managing and tracking employee expenses and reimbursements?
+    a) Expense Management
+    b) Incident Management
+    c) Problem Management
+    d) Change Management
+
+84. What does "RITM" stand for in the context of ServiceNow Request Management?
+    a) Requested Incident Task Management
+    b) Requested Item Task Management
+    c) Requested Incident Task Model
+    d) Requested Item Task Model
+
+85. What is the purpose of the Configuration Management Database (CMDB) in ServiceNow?
+    a) To manage employee salaries
+    b) To track hardware inventory and relationships between Configuration Items (CIs)
+    c) To store and share knowledge articles
+    d) To track customer complaints
+
+86. Which of the following is NOT a phase in the Incident Management process?
+    a) Identification
+    b) Categorization
+    c) Resolution
+    d) Training
+
+87. Which ServiceNow module is used for managing and tracking employee absences and time off requests?
+    a) Time and Attendance
+    b) Leave Management
+    c) HR Service Delivery
+    d) Incident Management
+
+88. What is the purpose of a Service Request in ServiceNow?
+    a) To request a change to IT infrastructure or services
+    b) To manage hardware inventory
+    c) To manage employee salaries
+    d) To track customer complaints
+
+89. What is the primary function of the ServiceNow Change Management module?
+    a) To track hardware inventory
+    b) To manage changes to IT infrastructure or services
+    c) To manage employee benefits
+    d) To manage customer complaints
+
+90. Which ServiceNow module is used for managing and tracking employee expenses and reimbursements?
+    a) Expense Management
+    b) Incident Management
+    c) Problem Management
+    d) Change Management
+
+91. What does "RITM" stand for in the context of ServiceNow Request Management?
+    a) Requested Incident Task Management
+    b) Requested Item Task Management
+    c) Requested Incident Task Model
+    d) Requested Item Task Model
+
+92. What is the purpose of the Configuration Management Database (CMDB) in ServiceNow?
+    a) To manage employee salaries
+    b) To track hardware inventory and relationships between Configuration Items (CIs)
+    c) To store and share knowledge articles
+    d) To track customer complaints
+
+93. Which of the following is NOT a phase in the Incident Management process?
+    a) Identification
+    b) Categorization
+    c) Resolution
+    d) Training
+
+94. Which ServiceNow module is used for managing and tracking employee absences and time off requests?
+    a) Time and Attendance
+    b) Leave Management
+    c) HR Service Delivery
+    d) Incident Management
+
+95. What is the purpose of a Service Request in ServiceNow?
+    a) To request a change to IT infrastructure or services
+    b) To manage hardware inventory
+    c) To manage employee salaries
+    d) To track customer complaints
+
+96. What is the primary function of the ServiceNow Change Management module?
+    a) To track hardware inventory
+    b) To manage changes to IT infrastructure or services
+    c) To manage employee benefits
+    d) To manage customer complaints
+
+97. Which ServiceNow module is used for managing and tracking employee expenses
+
+ and reimbursements?
+    a) Expense Management
+    b) Incident Management
+    c) Problem Management
+    d) Change Management
+
+98. What does "RITM" stand for in the context of ServiceNow Request Management?
+    a) Requested Incident Task Management
+    b) Requested Item Task Management
+    c) Requested Incident Task Model
+    d) Requested Item Task Model
+
+99. What is the purpose of the Configuration Management Database (CMDB) in ServiceNow?
+    a) To manage employee salaries
+    b) To track hardware inventory and relationships between Configuration Items (CIs)
+    c) To store and share knowledge articles
+    d) To track customer complaints
+
+100. Which of the following is NOT a phase in the Incident Management process?
+     a) Identification
+     b) Categorization
+     c) Resolution
+     d) Training
+
+These questions cover a range of topics related to ServiceNow, including modules, processes, terminology, and best practices. They are designed to test your understanding of ServiceNow concepts and prepare you for certification exams or interviews.

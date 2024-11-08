@@ -1,0 +1,236 @@
+*{
+   
+    font-family: 'Outfit', sans-serif;
+   
+    /* border: 2px solid red; */
+}
+body{
+    background-color: black;
+}
+.EventsTab{
+    width: 100vw;
+    height: auto;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.EventText{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    color: #E4FFD3;
+    margin-top: 5%;
+    color: transparent; 
+        background-image: url('/Images/About\ Background.jpg'); 
+        background-size:contain; 
+        background-clip: text; 
+        -webkit-background-clip: text; 
+    
+}
+.EventsList{
+    width: 80vw;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:8% 8%;
+    z-index: 4;
+}
+.EventPic{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.EventPic img{
+    width: 550px;
+    height: 350px;
+    box-shadow: 30px 30px 0px rgba(189 , 255, 0, 1);  
+     
+}
+.EventDetails{
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+.EventDetails h1{
+    color: white;
+    font-size: 50px;
+    text-align: left;
+ }
+ .WhiteSpace{
+    margin: 5%;
+ }
+ .EventDetails p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 200%;
+    padding: 40px 0;
+}
+.Registration{
+    margin-top: 10%;
+}
+ 
+.Registration .button{
+    background-color: #0037C4;
+    width: 150px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    margin-left: 0;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+.Registration a{
+    padding: 20px 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 3%;
+    font-family: sans-serif;
+    
+    
+} 
+
+.EventPic h3{
+    z-index: -1;
+    font-size: 100px;
+    font-family: 'Noto Sans Meetei Mayek', sans-serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom, #3879F5, #000E33,#000E33);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    margin: 0%;
+    margin-bottom: -5%;
+ }
+
+ .Eventline{
+    width: 90%;
+    height: 2px;
+    background-color: rgb(79, 79, 79);
+ }
+
+
+ 
+
+ @media only screen and (min-width: 1440px) {}
+
+
+
+@media only screen and (max-width: 1124px) {
+    .EventPic img{
+       width: 400px;
+       height: 250px;
+       box-shadow: 25px 25px 0px rgb(212, 255, 0);  
+    } 
+    .EventPic h3{
+        font-size: 70px;
+     }
+     .EventDetails h1{
+        font-size: 45px;
+     }
+     
+     .EventDetails p{
+         font-size: 16px;   
+         padding: 20px 0px;      
+     }
+     .EventDetails {
+        
+        width:60%;}
+}
+@media only screen and (max-width: 922px) {
+    .EventPic img{
+        width: 500px;
+        height: 350px;
+        box-shadow: 25px 25px 0px rgb(212, 255, 0);  
+     } 
+}
+
+@media only screen and (max-width: 930px) {
+    .EventPic img{
+        width: 400px;
+        height: 250px;
+        box-shadow: 25px 25px 0px rgb(212, 255, 0);  
+     } 
+ 
+    .EventDetails{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Registration{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .EventPic h3{
+        margin-bottom: -12%;
+        margin-left: -50%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .EventText{
+        
+        font-size: 35px;
+        color: #E4FFD3;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .light{
+        width: 250px;
+    height: 250px;
+        
+    }
+     .EventPic img{
+        width: 240px;
+        height: 150px;
+        box-shadow: 15px 15px 0px rgb(212, 255, 0);  
+     } 
+     .EventDetails h1{
+        font-size: 30px;
+     }
+     .EventDetails p{
+        font-size: 13px;
+     }
+     .Registration button{
+       
+        width: 130px;
+        height: 48px;
+        font-size: 13px;
+    }
+    .Registration a{
+        font-size: 10px;
+        width: 40%;
+    }
+    .EventPic h3{
+        font-size: 50px;
+        margin-bottom: -20%;
+     }
+}
+
+@media only screen and (max-width: 400px) {
+    
+}
+
+@media only screen and (max-width: 350px) {
+    
+}
+

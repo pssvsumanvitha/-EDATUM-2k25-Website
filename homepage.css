@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid green; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@800&display=swap');
+
+.homepagesection{
+    width: 100vw;
+    background-color: black;  
+}
+.homebac{
+    position: relative;
+    width: 100vw;
+    
+    background-color: rgb(0, 0, 0);
+    background-image: url("Backgroundpic.jpg");
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    z-index: 7;
+    animation: light 2s linear infinite;
+
+}
+@keyframes light{
+    0%,100%{
+        filter: saturate(1.5);
+        filter: hue-rotate(20deg);  
+    }
+    50%{
+        filter: saturate(10); 
+        filter: hue-rotate(100deg);   
+        
+    }
+    
+}
+.registration{
+    padding-bottom:5% ;
+}
+.hometext{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20rem;
+    z-index: 10;
+}
+.outline{
+    font-family: 'Kufam', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    background-image: linear-gradient(180deg, #fff, #1a1a1a,#000);
+background-clip: text;
+-webkit-text-stroke-color: transparent;
+ -webkit-text-stroke-width: calc(30px/ 16);
+-webkit-background-clip: text;
+
+font-size: 22vmin;
+font-weight: 700;
+
+}
+
+.EDATUMLOGO{
+    width: 600px;
+    margin-top: -10rem;
+    z-index: 19;
+}
+.EDATUMINFO{
+    width: 70%;
+    color: white;
+    padding-top: 2%;
+    text-align: center;
+    line-height: 180%;
+}
+.EDATUMINFO i{
+    color: #00ff84;
+}
+.registration{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    
+}
+
+.registration button{
+    cursor: pointer;
+    background-color: #0037C4;
+    width: 180px;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 68px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-decoration-style: none;
+    margin-right: 5%;
+
+}
+.registration a{
+padding: 20px 10px;
+color: white;
+font-weight: bold;
+font-family: sans-serif;
+font-size: 20px;
+text-decoration: none;
+}
+.registration a:hover{
+    color: rgb(164, 164, 164);
+}
+
+.glich{
+    animation: glitch 1s linear infinite;
+  
+  }
+  
+  @keyframes glitch{
+    2%,64%{
+      transform: translate(5px,0) skew(0.3deg);
+      background-image: linear-gradient(180deg, #3dff84, #000000,#000000);
+
+    }
+    4%,30%{
+      transform: translate(-1px,0) skew(1deg);
+      background-image: linear-gradient(180deg, #158eff, #2f0000,#000000);
+
+    }
+    30%,60%{
+        transform: translate(-1px,0) skew(-8deg);
+        background-image: linear-gradient(180deg, #ff15ff, #2f0000,#000000);
+  
+      }
+    62%{
+      transform: translate(-19px,0) skew(0deg); 
+      background-image: linear-gradient(180deg, #00e5ff, #000000,#000000);
+    }
+  }
+  
+  div:before,
+  div:after{
+    content: attr(title);
+    position: absolute;
+    left: 0;
+  }
+  
+  div:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 10% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  
+  @keyframes glitchTop{
+    2%,64%{
+      transform: translate(2px,-2px);
+      background-image: linear-gradient(180deg, #ff0066, #1a1a1a,#000);
+    }
+    4%,60%{
+      transform: translate(-2px,2px);
+    }
+    62%{
+      transform: translate(13px,-1px) skew(-13deg); 
+    }
+  }
+  
+  div:after{
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+  
+  @keyframes glitchBotom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 1440px) {
+    
+.homebac{
+   
+
+}
+  }
+
+  
+@media only screen and (max-width: 950px) {
+.EDATUMLOGO{
+        width: 500px;
+        margin-top: -7rem;
+        z-index: 19;
+}
+    
+.outline{
+    font-family: 'Kufam', sans-serif; 
+font-size: 18vmin;
+font-weight: 700;
+
+}
+
+.registration button{
+  
+    width: 140px;
+    height: 48px;
+    font-size: 15px;
+    margin-right: 5%;
+
+}       
+.registration a{
+    font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+    .EDATUMLOGO{
+        width: 350px;
+        margin-top: -5rem;
+        z-index: 19;
+}
+.homepagesection{
+    width: 100vw;
+
+    background-color: black;  
+}
+}
+
+    
+@media only screen and (max-width: 750px) {
+    .outline{
+        margin-top: 10%;
+    }
+    .EDATUMINFO{
+        font-size: 12px;
+    }
+    .EDATUMLOGO{
+   
+      margin-top: -15rem;
+      z-index: 19;
+  }
+    .EDATUMINFO{
+        width: 90%;
+        margin: 6%;
+    }
+   
+}
+
+@media only screen and (max-width: 560px) {
+    .outline{
+        margin-top: 30%;
+        font-size: 22vmin;
+    }
+    .EDATUMLOGO{
+        width: 350px;
+        margin-top: -35rem;
+}
+
+
+.registration button{
+  
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    margin-right: 5%;
+
+}       
+.EDATUMINFO{
+    font-size: 10px;
+    margin: 8%;
+    margin-bottom: 5%;
+}
+.registration a{
+    font-size: 12px;
+}
+.homebac{
+    position: relative;
+    width: 100vw;
+    
+}
+.homepagesection{
+
+   
+   
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .outline{
+        margin-top: 40%;
+        font-size: 22vmin;
+    }
+    .EDATUMLOGO{
+        width: 280px;
+        
+    }
+        .homebac{
+          position: relative;
+          width: 100vw;
+        }
+}

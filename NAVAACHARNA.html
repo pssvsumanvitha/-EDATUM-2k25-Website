@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDatum | NAVAACHARANA</title>
+    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <link rel="stylesheet" href="NAVAACHARNA.css">
+    <nav>
+        <div class="asd">
+            
+            <h1>EDATUM</h1>
+            
+        </div>
+           
+       
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Events</a></li>
+            <li><a href="#">Gallery</a></li>
+         <div class="dadadadadad">
+          <a href="index.html">  <li> <button class="login-button">  Contact Us </button></li> </a>
+         </div>
+           
+        </ul>
+       
+
+
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+    
+    hamburger.addEventListener('click', ()=>{
+       //Animate Links
+        navLinks.classList.toggle("open");
+        links.forEach(link => {
+            link.classList.toggle("fade");
+        });
+    
+        //Hamburger Animation
+        hamburger.classList.toggle("toggle");
+    });
+        </script>
+    </nav>
+
+    <div class="Eventssssss">
+        <div class="EventsList">
+            
+            <div class="EventPic">
+                <h3>02</h3>
+                <img src="Navaacharana.jpg" alt="">
+            </div>
+           
+            <div class="EventDetails">
+                <h1>NAVAACHARANA </h1>
+                <p>
+                   <b><u> SUMMARY: </u>  </b>  <br><br>
+                   🎯 Welcome to the Innovative Ideas Contest,the stage is yours for the next big idea!
+                   "NAVAACHARAN( idea expo💡): Embrace the opportunity to make a meaningful impact with your forward-thinking ideas. Join the competition and be part of the driving force shaping the future! "
+<br>
+<br> <b><u>  DESCRIPTION:</u></b><br><br>
+Unleash your creativity in our Innovation Challenge! 🎖This contest invites teams to submit ground breaking ideas that address real-world challenges and submit visionary solutions that redefine the future.
+
+To participate in this contest, follow these steps:
+
+<br>1.Familiarise yourself with your own idea.
+
+<br>2.Team size should be 2(minimum)-5(maximum).
+
+<br>3.Gain comprehensive insights into the selected idea through diligent research and study.
+
+<br>4.Choose the best method to present the information, you can use either video or PPT format.
+
+<br>5. Ensure that your idea presentation is original and not copied from any other source.
+
+<br>6. 🚫 Duplicate will not be permitted.
+
+                </p>
+                <div class="Registration">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2Cv0vOV277VhxQRq9OL1e0tcuXUYoiXhagmMde1vzp7CZTQ/viewform" class="button">  Register Now</a>
+                    
+                </div>
+            </div>
+        
+    </div>
+    </div>
+</body>
+</html>

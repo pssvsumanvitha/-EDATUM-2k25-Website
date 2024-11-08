@@ -1,0 +1,62 @@
+@media only screen and (min-width: 1440px) {}
+
+
+
+@media only screen and (max-width: 1124px) {
+    .EventPic img{
+       width: 400px;
+       height: 250px;
+       box-shadow: 25px 25px 0px rgb(212, 255, 0);  
+    } 
+    .EventPic h3{
+        font-size: 70px;
+     }
+     .EventDetails h1{
+        font-size: 45px;
+     }
+     
+     .EventDetails p{
+         font-size: 16px;   
+         padding: 20px 0px;      
+     }
+     .EventDetails {
+        
+        width:60%;}
+}
+@media only screen and (max-width: 922px) {
+    .EventPic img{
+        width: 500px;
+        height: 350px;
+        box-shadow: 25px 25px 0px rgb(212, 255, 0);  
+     } 
+}
+
+@media only screen and (max-width: 930px) {
+    .EventPic img{
+        width: 400px;
+        height: 250px;
+        box-shadow: 25px 25px 0px rgb(212, 255, 0);  
+     } 
+    .EventsList{
+        display: grid;
+        margin-top: 6%;
+        text-align: center; 
+    }
+    .EventDetails{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Registration{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .EventPic h3{
+        margin-bottom: -12%;
+        margin-left: -50%;
+    }
+}

@@ -1,0 +1,57 @@
+@media only screen and (max-width: 450px) {
+    .EventText{
+        text-align: center;
+        font-size: 35px;
+        color: #E4FFD3;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .light{
+        width: 250px;
+    height: 250px;
+        
+    }
+     .EventPic img{
+        width: 240px;
+        height: 150px;
+        box-shadow: 15px 15px 0px rgb(212, 255, 0);  
+     } 
+     .EventDetails h1{
+        font-size: 30px;
+        text-align: center;
+     }
+     .EventDetails p{
+        font-size: 13px;
+     }
+     .Registration{
+        flex-direction: column;
+     }
+     .Registration button{
+       
+        width: 130px;
+        height: 38px;
+        font-size: 10px;
+    }
+    .Registration a{
+        font-size: 10px;
+        width: 40%;
+    }
+    .EventPic h3{
+        font-size: 50px;
+        margin-bottom: -20%;
+     }
+}
+
+@media only screen and (max-width: 400px) {
+      .Registration button{
+       
+        width: 130px;
+        height: 48px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    
+}
+
