@@ -718,7 +718,6 @@ font-weight: 700;
 .hometext {
     color: #333;    /* Set text color */
     font-family: Arial, sans-serif; /* Font family */
-    text-align: center; /* Center the text */
     padding: 5%;     /* Add some padding */
 }
 .a2K24{
