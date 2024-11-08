@@ -721,6 +721,7 @@ font-weight: 700;
     font-family: Arial, sans-serif; /* Font family */
     padding: 5%;
     text-align: center;/* Add some padding */
+    resize: 100%
 }
 .a2K24{
     font-size: 15vmin;
