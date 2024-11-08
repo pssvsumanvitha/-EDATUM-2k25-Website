@@ -722,6 +722,11 @@ font-weight: 700;
     text-align: center; /* Center the text */
     padding: 5%;     /* Add some padding */
 }
+.a2k24 {
+    background-color: #4CAF50; /* Example background color */
+    color: white;              /* Text color */
+}
+
 
 
 /* Home Page Ends */
