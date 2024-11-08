@@ -716,16 +716,12 @@ font-weight: 700;
 }
 }
 .hometext {
-    font-size: 5vw; /* Adjust font size based on viewport width */
     color: #333;    /* Set text color */
     font-family: Arial, sans-serif; /* Font family */
     text-align: center; /* Center the text */
     padding: 5%;     /* Add some padding */
 }
-.a2k24 {
-    background-color: #4CAF50; /* Example background color */
-    color: white;              /* Text color */
-}
+
 
 
 
