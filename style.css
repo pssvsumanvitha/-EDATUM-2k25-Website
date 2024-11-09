@@ -719,7 +719,6 @@ font-weight: 700;
 .hometext {
     color: #333;    /* Set text color */
     font-family: Arial, sans-serif; /* Font family */
-    padding: 5%;
     text-align: center;/* Add some padding */
     resize: 100%
 }
