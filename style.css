@@ -736,6 +736,15 @@ font-weight: 700;
   padding-bottom: 10px;
   padding-left: 15px;
 }
+.flip-image {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-image:hover {
+  transform: rotateY(180deg);
+}
+
  
 
 
