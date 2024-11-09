@@ -729,7 +729,7 @@ font-weight: 700;
 .strides {
     text-align: center;
     padding: 5%
-    max-width: 100%;
+    width: 500px;
     height: auto;
 
     
