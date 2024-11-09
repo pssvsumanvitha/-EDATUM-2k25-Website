@@ -405,7 +405,15 @@ html{
  @media only screen and (max-width: 350px) {
      
  }
- 
+ .strides {
+    text-align: center;
+    padding: 5%
+    width: 500px;
+    height: auto;
+
+    
+}
+    
  
 
 /* About Section Ended */
@@ -726,15 +734,7 @@ font-weight: 700;
     font-size: 15vmin;
     color: white;
 }
-.strides {
-    text-align: center;
-    padding: 5%
-    width: 500px;
-    height: auto;
-
-    
-}
-    
+ 
 
 
 
