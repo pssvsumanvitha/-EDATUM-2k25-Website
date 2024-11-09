@@ -405,14 +405,12 @@ html{
  @media only screen and (max-width: 350px) {
      
  }
- .strides {
-    text-align: center;
-    padding: 5%
-    width: 500px;
-    height: auto;
-
-    
+ .strides-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
+
     
  
 
