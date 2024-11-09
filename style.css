@@ -405,7 +405,7 @@ html{
  @media only screen and (max-width: 350px) {
      
  }
- .strides-image {
+ .hometext strides{
   width: 100%;
   max-width: 100%;
   height: auto;
