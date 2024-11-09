@@ -730,8 +730,11 @@ font-weight: 700;
     font-size: 15vmin;
     color: white;
 }
-.hometext .strides img {
-  margin-top: 20px;
+.strides{
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
 }
  
 
