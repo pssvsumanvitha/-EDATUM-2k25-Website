@@ -711,17 +711,6 @@ font-weight: 700;
 .EventsTab flip-image:hover {
   transform: rotateY(180deg);
 }
-/* Video Background */
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    z-index: -1;
-}
-
 .video-container video {
     position: absolute;
     top: 50%;
