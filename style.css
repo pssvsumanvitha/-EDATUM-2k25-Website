@@ -29,7 +29,7 @@ html{
 .About{
     height: max-content;
     background-color: antiquewhite;
-    
+    background-image: url('About\ Background.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     padding: 5%;
