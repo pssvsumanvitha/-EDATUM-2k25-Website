@@ -42,6 +42,9 @@
         <div class="asd">
             
             <h1>EDATUM</h1>
+            
+        </div>
+           
        
         <div class="hamburger">
             <div class="line1"></div>
@@ -56,7 +59,6 @@
          <div class="dadadadadad">
           <a href="#TeamSection">  <li> <button class="login-button">  Contact Us </button></li> </a>
          </div>
-            
            
         </ul>
        
@@ -111,12 +113,6 @@
                <a href="#EventsTab"> <button>Register Now</button></a>
                 <a href="">View Poster</a>
              </div>
-            </div>
-           <div class="video-container">
-        <video controls>
-            <source src="video.mp4" type="video/mp4">
-        </video>
-    </div>
         </div>
         
     </div>
@@ -345,5 +341,118 @@
 
 </div>
 </div>
+</body>
+</html> can you check where background.jpg sentence is there
+ChatGPT said:
+ChatGPT
+It looks like the HTML code you provided does not contain any references to a background.jpg file. To confirm, I searched for occurrences of "background" and .jpg but didn't find them in the provided code.
+
+If you intended to include background.jpg, it might be missing from this code snippet. You can search for its usage by inspecting the CSS files (style.css, nav.css, media2.css, mobilemedia2.css, ourteam.css, or footer.css) for references to background.jpg.
+
+Here’s how you might find it:
+
+Search in External CSS Files: Check for CSS rules like:
+
+css
+Copy code
+background-image: url('background.jpg');
+or any mention of background.jpg.
+
+Verify in JavaScript Files: If a script dynamically sets the background, search for something like:
+
+javascript
+Copy code
+element.style.backgroundImage = "url('background.jpg')";
+Let me know if you’d like assistance with finding this in your CSS or JavaScript!
+
+
+
+
+
+
+You said:
+css code for vidio insertion
+ChatGPT said:
+ChatGPT
+Here’s a simple CSS and HTML code snippet for embedding and styling a video:
+
+HTML Code:
+html
+Copy code
+<div class="video-container">
+    <video controls>
+        <source src="your-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+CSS Code:
+css
+Copy code
+.video-container {
+    position: relative;
+    max-width: 800px; /* Adjust based on desired width */
+    margin: 20px auto; /* Center the video on the page */
+    border: 2px solid #ccc; /* Optional border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures rounded corners are applied to the video */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for a sleek look */
+}
+
+.video-container video {
+    width: 100%; /* Make the video responsive */
+    height: auto; /* Preserve aspect ratio */
+}
+Notes:
+Replace your-video.mp4 with the actual video file path or URL.
+The controls attribute in the <video> tag adds playback controls like play, pause, and volume.
+Adjust max-width in the .video-container class to set the maximum width for your video.
+The box-shadow and border-radius styles are optional for aesthetics.
+Let me know if you need further customizations!
+
+
+
+
+
+
+You said:
+html code
+ChatGPT said:
+ChatGPT
+Here’s a complete example of HTML code for inserting and styling a video:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Example</title>
+    <style>
+        .video-container {
+            position: relative;
+            max-width: 800px; /* Adjust width as needed */
+            margin: 20px auto; /* Center the video */
+            border: 2px solid #ccc; /* Optional border */
+            border-radius: 10px; /* Rounded corners */
+            overflow: hidden; /* Ensures rounded corners are applied */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+        }
+
+        .video-container video {
+            width: 100%; /* Make video responsive */
+            height: auto; /* Preserve aspect ratio */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <video controls>
+            <source src="example-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
 </body>
 </html>
