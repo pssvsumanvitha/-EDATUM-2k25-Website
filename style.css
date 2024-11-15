@@ -426,6 +426,7 @@ html{
     position: relative;
     width: 100vw;
     min-height: 60vh;
+    background-image: url("Backgroundpic.jpg");
     background-size:auto;
     background-position: center;
     background-repeat: no-repeat;
