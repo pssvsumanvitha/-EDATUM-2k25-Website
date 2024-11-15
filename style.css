@@ -722,7 +722,7 @@ font-weight: 700;
     z-index: -1;
 }
 
-.video-container video {
+.video-container vidio {
     position: absolute;
     top: 50%;
     left: 50%;
