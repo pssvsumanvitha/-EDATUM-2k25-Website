@@ -420,9 +420,7 @@ html{
 
 
 .homepagesection{
-    width: 100vw;
-    
-    background-color: black;  
+    width: 100vw; 
 }
 .homebac{
     position: relative;
@@ -523,33 +521,6 @@ text-decoration: none;
 .registration a:hover{
     color: rgb(164, 164, 164);
 }
-
-.glich{
-    animation: glitch 1s linear infinite;
-  
-  }
-  
-  @keyframes glitch{
-    2%,64%{
-      transform: translate(5px,0) skew(0.3deg);
-      background-image: linear-gradient(180deg, #3dff84, #000000,#000000);
-
-    }
-    4%,30%{
-      transform: translate(-1px,0) skew(1deg);
-      background-image: linear-gradient(180deg, #158eff, #2f0000,#000000);
-
-    }
-    30%,60%{
-        transform: translate(-1px,0) skew(-8deg);
-        background-image: linear-gradient(180deg, #ff15ff, #2f0000,#000000);
-  
-      }
-    62%{
-      transform: translate(-19px,0) skew(0deg); 
-      background-image: linear-gradient(180deg, #00e5ff, #000000,#000000);
-    }
-  }
   
   div:before,
   div:after{
