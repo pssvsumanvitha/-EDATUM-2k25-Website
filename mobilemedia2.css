@@ -87,7 +87,7 @@
   #p-btn2 {
     transition: none;
     position: absolute;
-    left: 20%;
+    left: 19%;
     right: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -96,10 +96,10 @@
     padding: 2% 3%;
   }
   #p-btn2 {
-    bottom: 11.4rem; /* Position above p-btn */
+    bottom: 11.6rem; /* Position above p-btn */
   }
   #p-btn {
-    bottom: 9.2rem;
+    bottom: 9.6rem;
   }
 }
 
