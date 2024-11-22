@@ -1515,7 +1515,7 @@ body {
 }
 
 /* Zoom functionality */
-.carousel-images img.zoomed {
+/* .carousel-images img.zoomed {
   position: fixed;
   top: 0;
   left: 0;
@@ -1550,7 +1550,7 @@ body {
   background-color: rgba(0, 0, 0, 0.045);
   z-index: 999;
   display: none;
-}
+} */
 
 .zoom-overlay.active {
   display: block;
@@ -1697,3 +1697,11 @@ body {
     display: none;  
   }
 } */
+
+/* Disable zoom functionality on mobile */
+@media only screen and (max-width: 768px) {
+  .carousel-images img.zoomed,
+  .carousel-image.zoomed {
+    display: none; /* Hide zoomed images on mobile */
+  }
+}

@@ -206,7 +206,7 @@ nav::after {
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
   .asd #nav-logo {
-    margin-left: 2%;
+    margin-left: 3%;
   }
   .login-button {
     background-color: rgb(255, 255, 255);
