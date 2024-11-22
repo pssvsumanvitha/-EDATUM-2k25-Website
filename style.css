@@ -1671,20 +1671,31 @@ body {
 }
 
 /* Adjust positioning for mobile */
-@media only screen and (max-width: 480px) {
-  .homepagesection {
-    perspective: 5px; /* Reduced perspective for mobile */
-  }
-
+@media only screen and (max-width: 768px) {
   #date,
   #str-img-sec,
   #ed-img-sec {
-    transform: translateZ(1px);
+    transform: translateZ(0); /* Disable parallax effect on mobile */
   }
 }
-
+@media only screen and (max-width: 480px) {
+  #date,
+  #str-img-sec,
+  #ed-img-sec {
+    transform: none; /* Disable parallax effect on mobile */
+  }
+}
 @media only screen and (max-width: 450px) {
-  .homepagesection {
-    perspective: 4px;
+  #date,
+  #str-img-sec,
+  #ed-img-sec {
+    transform: none; /* Disable parallax effect on mobile */
+  }
+}
+/* Disable zoom functionality on mobile */
+@media only screen and (max-width: 768px) {
+  .carousel-images img.zoomed,
+  .carousel-image.zoomed {
+    display: none; /* Hide zoomed images on mobile */
   }
 }

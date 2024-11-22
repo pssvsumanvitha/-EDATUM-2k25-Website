@@ -47,7 +47,7 @@
     left: 0;
   }
   #date {
-    left: 1.1vh;
+    left: 2vh;
     max-width: 91%;
     bottom: 1px;
   }
@@ -96,10 +96,10 @@
     padding: 2% 3%;
   }
   #p-btn2 {
-    bottom: 10.2rem; /* Position above p-btn */
+    bottom: 11.4rem; /* Position above p-btn */
   }
   #p-btn {
-    bottom: 8.1rem;
+    bottom: 9.2rem;
   }
 }
 
