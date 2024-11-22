@@ -1,345 +1,864 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDATUM 2k25 | STRIDES </title>
-    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="media2.css">
-    <link rel="stylesheet" href="mobilemedia2.css">
-    <link rel="stylesheet" href="ourteam.css">
-    <link rel="stylesheet" href="footer.css">
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDATUM 2k25 | STRIDES</title>
+    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="media2.css" />
+    <link rel="stylesheet" href="mobilemedia2.css" />
+    <link rel="stylesheet" href="ourteam.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body onload="myLoader()">
+    <!-- Loader Screen -->
+    <main id="Loader">
+      <img src="./load_gif.gif" class="loaderrre" />
+    </main>
 
+    <script>
+      var preloader = document.getElementById("Loader");
+      function myLoader() {
+        preloader.style.display = "none";
+      }
+    </script>
+    <!-- Loader Screen Ended -->
+    <div id="sasadad">
+      <div id="progress-bar">
+        <div id="progress"></div>
+      </div>
+      <!-- Navigation Bar Started -->
+      <div id="navbar">
+        <nav>
+          <div class="asd">
+            <img src="./EDATUM Logo.png" id="nav-logo" />
+          </div>
 
-</head>
-<body onload="myLoader()">
-<!-- Loader Screen -->
-<main id="Loader">
-   <img src="https://blog.hubspot.com/hs-fs/hubfs/7a8f8d634013568124e130728834d47a.gif?width=1500&name=7a8f8d634013568124e130728834d47a.gif" class="loaderrre">
-</main>
-
-
-
-<script>
-    var preloader = document.getElementById('Loader');
-    function myLoader(){
-        preloader.style.display='none';
-       
-    }
-</script>
-<!-- Loader Screen Ended -->
-<div id="sasadad">
-
-
-
-
-<!-- Navigation Bar Started -->
-    <nav>
-        <div class="asd">
-            
-            <h1>EDATUM</h1>
-            
-        </div>
-           
-       
-        <div class="hamburger">
+          <div class="hamburger">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
-        </div>
-        <ul class="nav-links">
+          </div>
+          <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#AboutText">About</a></li>
             <li><a href="#EventsTab">Events</a></li>
-            <li><a href="#">Gallery</a></li>
-         <div class="dadadadadad">
-          <a href="#TeamSection">  <li> <button class="login-button">  Contact Us </button></li> </a>
-         </div>
-           
-        </ul>
-       
-
-
-        <script>
-            const hamburger = document.querySelector(".hamburger");
-    const navLinks = document.querySelector(".nav-links");
-    const links = document.querySelectorAll(".nav-links li");
-    
-    hamburger.addEventListener('click', () => {
-        //Animate Links
-        navLinks.classList.toggle("open");
-        links.forEach(link => {
-            link.classList.toggle("fade");
-        });
-    
-        //Hamburger Animation
-        hamburger.classList.toggle("toggle");
-    });
-    
-    // Close the menu when a list element is clicked
-    links.forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove("open");
-            links.forEach(link => {
-                link.classList.remove("fade");
-            });
-            hamburger.classList.remove("toggle");
-        });
-    });
-        </script>
-    </nav>
-
-    <!-- Navigation Bar Ended -->
-    <div class="homepagesection">
-        <div class="homebac">
-        </div>
-        <div class="hometext">
-                <img src="strides.png" class="strides">
-               
-            <h1 class="outline glich"> EDATUM</h1>
-            <img src="EDATUM Logo.png" class="EDATUMLOGO" alt="">
-    
-            <h4 class="a2K24">2K25</h4>
-    
-            <p class="EDATUMINFO"> E-datum, guided by the ethos <i> "ponder, innovate, craft"  </i> fearlessly tackles the realm of impossibilities.
-                This forward-thinking entity <i> embraces the </i> 🎯🎯<i> challenges </i> of transcending limitations.
-             </p>
-    
-             <div class="registration">
-               <a href="#EventsTab"> <button>Register Now</button></a>
-                <a href="https://drive.google.com/file/d/1miY_OpDgZ3Fi8JJT_CSjGaSeuSLWZBjq/view?usp=sharing">View Poster</a>
-             </div>
-        </div>
-        
-    </div>
-<!-- About Section Bar Started -->
-    <div class="About">
-        <!-- <img src="" class="qe w"> -->
-        <h1 id="AboutText"> About </h1>
-        <div class="AboutColum">
-            <p>The Department of Data Science at Pragati Engineering College proudly presents eDatum, a highly anticipated technical event of national and international repute. 
-                This extraordinary gathering brings together B.Tech students from across the world, providing a dynamic platform for knowledge.
-            </p>
-            <div class="container">
-                <img src="small Dept Level Poster.png" alt="Edatum Poster 2k24">
-              </div>
-           
-        </div>
-    </div>
-<!-- About Section Bar Ended -->
-
-
-<!-- Events Section Started -->
-<div class="EventsTab">
-    <div class="EventText" id="EventsTab">
-        <h1>Events</h1>
-    </div>
-   
-   
-    
-    <div class="EventsList">
-        
-            <div class="EventPic">
-                <h3>01</h3>
-               <a href="Data Vishleshana.jpg"> <img src="Data Vishleshana.jpg" alt=""></a>
-            </div>
-            <div class="WhiteSpace">
-
-            </div>
-            <div class="EventDetails">
-                <h1>DATA VISHLESHNA</h1>
-                <p>A technical quiz is like a fun challenge where people answer questions related to technology.🎯It tests your knowledge about computers, gadgets, and other technical stuff. It's a great way to learn..</p>
-                <div class="Registration">
-                    <a href="" class="button">  Register Now</a>
-                    <a href="DATAVISHLESHNA.html">Know More..</a>
+            <li><a href="#gallery">Gallery</a></li>
+            <li>
+              <div class="theme-toggle" id="themeToggle">
+                <div class="toggle-slider">
+                  <span class="toggle-icon">☀️</span>
                 </div>
+              </div>
+            </li>
+            <div class="dadadadadad">
+              <a href="Coordinators.html">
+                <li><button class="login-button">About Us</button></li>
+              </a>
             </div>
-        
-    </div>
+          </ul>
+          <script>
+            //toggle bar script
+            const themeToggle = document.getElementById("themeToggle");
+            const toggleSlider = themeToggle.querySelector(".toggle-slider");
+            const toggleIcon = toggleSlider.querySelector(".toggle-icon");
 
-<div class="Eventline"></div>
+            // Check for saved theme preference or default to light
+            const savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "dark") {
+              document.documentElement.setAttribute("data-theme", "dark");
+              themeToggle.classList.add("dark");
+              toggleIcon.textContent = "🌙";
+            }
 
-    <div class="EventsList">
-        
-        <div class="EventPic">
-            <h3>02</h3>
-         <a href="Navaacharana.jpg">  <img src="Navaacharana.jpg" alt=""></a> 
+            // Toggle theme function
+            themeToggle.addEventListener("click", () => {
+              const isDark = themeToggle.classList.toggle("dark");
+              const theme = isDark ? "dark" : "light";
+
+              // Update icon
+              toggleIcon.textContent = isDark ? "🌙" : "☀️";
+
+              // Update theme
+              document.documentElement.setAttribute("data-theme", theme);
+
+              // Save preference
+              localStorage.setItem("theme", theme);
+            });
+          </script>
+
+          <script>
+            const hamburger = document.querySelector(".hamburger");
+            const navLinks = document.querySelector(".nav-links");
+            const links = document.querySelectorAll(".nav-links li");
+
+            hamburger.addEventListener("click", () => {
+              //Animate Links
+              navLinks.classList.toggle("open");
+              links.forEach((link) => {
+                link.classList.toggle("fade");
+              });
+
+              //Hamburger Animation
+              hamburger.classList.toggle("toggle");
+            });
+
+            // Close the menu when a list element is clicked
+            links.forEach((link) => {
+              link.addEventListener("click", () => {
+                navLinks.classList.remove("open");
+                links.forEach((link) => {
+                  link.classList.remove("fade");
+                });
+                hamburger.classList.remove("toggle");
+              });
+            });
+            //down scroll hiding anim
+            const navbar = document.querySelector("#navbar");
+            let lasttopscroll = 0;
+            window.addEventListener("scroll", () => {
+              let scrolltop =
+                window.pageYOffset || document.documentElement.scrollTop; //finding the scroll top.
+              if (scrolltop > lasttopscroll) {
+                navbar.style.top = "-100px"; //hiding nav bar
+              } else {
+                navbar.style.top = "0";
+              }
+              lasttopscroll = scrolltop;
+            });
+          </script>
+        </nav>
+      </div>
+
+      <!-- Navigation Bar Ended -->
+      <div class="homepagesection">
+        <div id="hero-sec">
+          <!-- Add video background -->
+          <div class="video-background">
+            <video autoplay muted loop playsinline>
+              <source src="bg-video_2.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          <!-- Existing hero content -->
+          <div id="date">
+            <h2>Event starts on</h2>
+            <p id="d">January 10th, Friday...Coming in</p>
+            <div id="count-down">
+              <div class="countdown-item">
+                <span id="months">00</span>
+                <p>Months</p>
+              </div>
+              <div class="countdown-item">
+                <span id="days">00</span>
+                <p>Days</p>
+              </div>
+              <div class="countdown-item">
+                <span id="hours">00</span>
+                <p>Hours</p>
+              </div>
+              <div class="countdown-item">
+                <span id="minutes">00</span>
+                <p>Minutes</p>
+              </div>
+            </div>
+          </div>
+          <script>
+            function updateCountdown() {
+              // Set the target date (January 8th, 2025)
+              const targetDate = new Date("2025-01-10T09:00:00");
+              const currentDate = new Date();
+              const difference = targetDate - currentDate;
+
+              // Calculate the time units
+              const months = Math.floor(
+                difference / (1000 * 60 * 60 * 24 * 30.44)
+              );
+              const days = Math.floor(
+                (difference % (1000 * 60 * 60 * 24 * 30.44)) /
+                  (1000 * 60 * 60 * 24)
+              );
+              const hours = Math.floor(
+                (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+              );
+              const minutes = Math.floor(
+                (difference % (1000 * 60 * 60)) / (1000 * 60)
+              );
+
+              // Update the DOM
+              document.getElementById("months").textContent = months
+                .toString()
+                .padStart(2, "0");
+              document.getElementById("days").textContent = days
+                .toString()
+                .padStart(2, "0");
+              document.getElementById("hours").textContent = hours
+                .toString()
+                .padStart(2, "0");
+              document.getElementById("minutes").textContent = minutes
+                .toString()
+                .padStart(2, "0");
+
+              // If the countdown is over
+              if (difference < 0) {
+                clearInterval(interval);
+                document.getElementById("date").innerHTML =
+                  "<h1>Event Started!</h1>";
+                const cnt_dn = document.getElementById("count-down");
+                cnt_dn.style.display = "none";
+              }
+            }
+
+            // Update the countdown every minute
+            const interval = setInterval(updateCountdown, 60000);
+
+            // Initial call
+            updateCountdown();
+          </script>
+          <!-- count-down movement script -->
+          <!-- <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const heroSection = document.querySelector(".homepagesection");
+              const date = document.querySelector("#date");
+              const countdown = document.querySelector("#count-down");
+
+              window.addEventListener("scroll", () => {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * 0.5;
+
+                date.style.transform = `translateZ(30px) translateY(${
+                  rate * 0.3
+                }px)`;
+                countdown.style.transform = `translateZ(60px) translateY(${
+                  rate * 0.2
+                }px)`;
+              });
+
+              // Add mouse movement parallax
+              heroSection.addEventListener("mousemove", (e) => {
+                const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+                const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+
+                date.style.transform = `translateZ(50px) rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+                countdown.style.transform = `translateZ(30px) rotateY(${
+                  xAxis * 0.5
+                }deg) rotateX(${yAxis * 0.5}deg)`;
+              });
+
+              // Reset on mouse leave
+              heroSection.addEventListener("mouseleave", () => {
+                date.style.transform = "translateZ(50px)";
+                countdown.style.transform = "translateZ(30px)";
+              });
+            });
+          </script> -->
+          <!-- <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const heroSection = document.querySelector(".homepagesection");
+              const date = document.querySelector("#date");
+              const countdown = document.querySelector("#count-down");
+
+              window.addEventListener("scroll", () => {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * 0.8; // Increased multiplier for faster movement
+
+                // Faster text movement
+                date.style.transform = `translateZ(50px) translateY(${
+                  -rate * 0.6
+                }px)`; // Negative value for upward movement
+                countdown.style.transform = `translateZ(30px) translateY(${
+                  -rate * 0.5
+                }px)`;
+
+                // Add opacity fade effect as user scrolls
+                const opacity = Math.max(
+                  1 - scrolled / (window.innerHeight * 0.5),
+                  0
+                );
+                date.style.opacity = opacity;
+                countdown.style.opacity = opacity;
+              });
+
+              // Mouse movement parallax (enhanced effect)
+              heroSection.addEventListener("mousemove", (e) => {
+                const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+                const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+
+                date.style.transform = `translateZ(50px) rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+                countdown.style.transform = `translateZ(30px) rotateY(${
+                  xAxis * 0.5
+                }deg) rotateX(${yAxis * 0.5}deg)`;
+              });
+
+              // Reset on mouse leave
+              heroSection.addEventListener("mouseleave", () => {
+                date.style.transform = "translateZ(50px)";
+                countdown.style.transform = "translateZ(30px)";
+              });
+            });
+          </script> -->
+          <div id="str-img-sec">
+            <img
+              src="./strides_2k25logo.png"
+              alt="strides-2k25"
+              title="strides_2k25"
+            />
+          </div>
+          <div id="ed-img-sec">
+            <img src="./EDATUM Logo.png" alt="Edatum" title="Edatum" />
+            <h2>Department of Data Science</h2>
+            <p class="EDATUMINFO">
+              Illuminating the Path to <i>Technical Innovation</i> and
+              <i>Success</i>. This forward-thinking entity
+              <i> embraces the </i> 🎯🎯<i> challenges </i>
+              of transcending limitations.
+            </p>
+          </div>
+          <br />
+          <a id="p-btn2" href="#EventsTab">Register now</a>
+          <a id="p-btn" href="./small Dept Level Poster.png">View Poster</a>
+          <!-- <div class="hometext">
+            <div id="img-sec">
+              <img src="strides.png" class="strides" />
+              <h1 class="outline glich">EDATUM</h1>
+              <img src="EDATUM Logo.png" class="EDATUMLOGO" alt="" />
+
+              <h4 class="a2K24">2K25</h4>
+            </div> -->
+
+          <!-- 
+            <p class="EDATUMINFO">
+              E-datum, guided by the ethos
+              <i> "ponder, innovate, craft" </i> fearlessly tackles the realm of
+              impossibilities. This forward-thinking entity
+              <i> embraces the </i> 🎯🎯<i> challenges </i> of transcending
+              limitations.
+            </p>
+
+            <div class="registration">
+              <a href="#EventsTab"> <button>Register Now</button></a>
+              <a
+                href="https://drive.google.com/file/d/1miY_OpDgZ3Fi8JJT_CSjGaSeuSLWZBjq/view?usp=sharing"
+                >View Poster</a
+              >
+            </div> -->
+          <!-- </div> -->
+          <script>
+            //parallax-moving script
+            document.addEventListener("DOMContentLoaded", () => {
+              const parallaxElements = {
+                date: document.querySelector("#date"),
+                strImg: document.querySelector("#str-img-sec"),
+                edImg: document.querySelector("#ed-img-sec"),
+              };
+
+              let ticking = false;
+
+              window.addEventListener("scroll", () => {
+                if (!ticking) {
+                  window.requestAnimationFrame(() => {
+                    const scrolled = window.pageYOffset;
+                    const windowHeight = window.innerHeight;
+
+                    Object.entries(parallaxElements).forEach(
+                      ([key, element]) => {
+                        if (element) {
+                          const rect = element.getBoundingClientRect();
+                          const isInViewport =
+                            rect.top < windowHeight && rect.bottom > 0;
+
+                          if (isInViewport) {
+                            // Smaller movement values for subtler effect
+                            const speed =
+                              key === "date"
+                                ? 0.15
+                                : key === "strImg"
+                                ? 0.1
+                                : key === "edImg"
+                                ? 0.12
+                                : 0.08;
+
+                            element.style.transform = `translateY(${
+                              scrolled * speed
+                            }px) translateZ(2px) scale(1)`;
+                          }
+                        }
+                      }
+                    );
+                    ticking = false;
+                  });
+                  ticking = true;
+                }
+              });
+            });
+          </script>
         </div>
-        <div class="WhiteSpace">
-
+      </div>
+      <!-- About Section Bar Started -->
+      <div class="About">
+        <!-- <img src="" class="qe w"> -->
+        <h1 id="AboutText">About</h1>
+        <div class="AboutColum">
+          <p>
+            The <b>Department of Data Science</b> at Pragati Engineering College
+            proudly presents <b>EDATUM</b>, a highly anticipated event of
+            national and international repute. This time not only
+            <b>techinical</b> but also <b>cultural</b> touch. This extraordinary
+            gathering brings together B.Tech students from across the world,
+            providing a dynamic platform for knowledge.
+          </p>
+          <div class="container">
+            <img src="small Dept Level Poster.png" alt="Edatum-Poster-2k25" />
+          </div>
         </div>
-        <div class="EventDetails">
-            <h1>NAVAACHARANA</h1>
-            <p> 🌟Embrace the opportunity to make a meaningful impact with your forward-thinking ideas. Join the competition and be part of the driving force shaping the future #Idea expo💡💡</p>
+      </div>
+      <!-- About Section Bar Ended -->
+
+      <!-- Events Section Started -->
+      <div class="EventsTab">
+        <div class="EventText" id="EventsTab">
+          <h1 id="eve-text">Events</h1>
+        </div>
+
+        <div class="EventsList fade-up">
+          <div class="EventPic">
+            <h3>01</h3>
+            <a href="./posters/data vishleshana.png">
+              <img src="./posters/data vishleshana.png" alt=""
+            /></a>
+          </div>
+          <div class="WhiteSpace"></div>
+          <div class="EventDetails">
+            <h1>DATA VISHLESHNA</h1>
+            <p>
+              Get ready for an exciting and innovative quiz experience 🎖️ 🎯
+              where you can showcase your data science prowess. Join us in this
+              thrilling journey to challenge your knowledge!!🚀
+            </p>
             <div class="Registration">
-                <a href="">  Register Now</a>
-                <a href="NAVAACHARNA.html">Know More..</a>
+              <a href="https://forms.gle/PXE86wU1MCe6aWWJA" class="button">
+                Register Now</a
+              >
+              <a href="DATAVISHLESHNA.html">Know More..</a>
             </div>
+          </div>
         </div>
-    
-</div>
 
-<div class="Eventline"></div>
+        <div class="Eventline"></div>
 
-<div class="EventsList">
-        
-    <div class="EventPic">
-        <h3>03</h3>
-       <a href="Data Utpad Pradarshan.jpg"> <img src="Data Utpad Pradarshan.jpg" alt=""></a>
-    </div>
-    <div class="WhiteSpace">
-
-    </div>
-    <div class="EventDetails">
-        <h1> DATA UTPAD PRADAESHAN </h1>
-        <p>"DATA UTPADPRADHARSHAN: Where innovation meets fun! Explore cool apps, tech trends, and connect with fellow enthusiasts. 🚀 #AppExpo </p>
-        <div class="Registration">
-            <a href="" class="button">  Register Now</a>
-            <a href="DATA UTPADPRADHARSHAN.html">Know More..</a>
+        <div class="EventsList fade-up">
+          <div class="EventPic">
+            <h3>02</h3>
+            <a href="./posters/Navacharana.png">
+              <img src="./posters/Navacharana.png" alt=""
+            /></a>
+          </div>
+          <div class="WhiteSpace"></div>
+          <div class="EventDetails">
+            <h1>NAVAACHARANA</h1>
+            <p>
+              🔥Unlock the power of innovation! Join the NAVACHARANA Idea Expo,
+              a cutting-edge contest where visionary thinkers showcase
+              groundbreaking ideas to shape the future.
+            </p>
+            <div class="Registration">
+              <a href="https://forms.gle/KzTBQhAQiXksULk69" class="button">
+                Register Now</a
+              >
+              <a href="NAVAACHARNA.html">Know More..</a>
+            </div>
+          </div>
         </div>
-    </div>
 
-</div>
+        <div class="Eventline"></div>
 
-<div class="Eventline"></div>
+        <div class="EventsList fade-up">
+          <div class="EventPic">
+            <h3>03</h3>
+            <a href="./posters/data Utpad.png">
+              <img src="./posters/data Utpad.png" alt=""
+            /></a>
+          </div>
+          <div class="WhiteSpace"></div>
+          <div class="EventDetails">
+            <h1>DATA UTPAD PRADARSHAN</h1>
+            <p>
+              "👩‍💻✨Get ready for an innovative and engaging experience at the
+              Data Utpad Pradarshan! This event is designed to showcase
+              creativity and technical skills in data-driven applications🚀
+              #innovative projects
+            </p>
+            <div class="Registration">
+              <a href="https://forms.gle/ptWHUKDk4BAUQe596" class="button">
+                Register Now</a
+              >
+              <a href="DATA UTPADPRADHARSHAN.html">Know More..</a>
+            </div>
+          </div>
+        </div>
 
-<div class="EventsList">
-        
-<div class="EventPic">
-    <h3>04</h3>
-   <a href="Data Pravachan Team.jpg"><img src="Data Pravachan Team.jpg" alt=""></a> 
-</div>
-<div class="WhiteSpace">
+        <div class="Eventline"></div>
 
-</div>
-<div class="EventDetails">
-    <h1>DATA PRAVACHAN</h1>
-    <p>👩‍💻✨Data pravachan simplifies complex information, using visuals to tell a compelling story and make data easily understandable.✨👩‍💻✨</p>
-    <div class="Registration">
-        <a href="" class="button">  Register Now</a>
-        <a href="DATA PRAVACHAN.html">Know More..</a>
-    </div>
-</div>
+        <div class="EventsList fade-up">
+          <div class="EventPic">
+            <h3>04</h3>
+            <a href="./posters/data pravachan.png"
+              ><img src="./posters/data pravachan.png" alt=""
+            /></a>
+          </div>
+          <div class="WhiteSpace"></div>
+          <div class="EventDetails">
+            <h1>DATA PRAVACHAN</h1>
+            <p>
+              👩‍💻✨Data Pravachan, where storytelling meets data visualization.
+              This competition challenges participants to uncover hidden
+              patterns in a dataset, craft engaging narratives, and deliver
+              impactful visual presentations.✨👩‍💻✨
+            </p>
+            <div class="Registration">
+              <a href="https://forms.gle/ae1BqTyqjq7zHRCK6" class="button">
+                Register Now</a
+              >
+              <a href="DATA PRAVACHAN.html">Know More..</a>
+            </div>
+          </div>
+        </div>
+        <div class="Eventline"></div>
 
-</div>
-<div class="Eventline"></div>
-</div>
+        <div class="EventsList fade-up">
+          <div class="EventPic">
+            <h3>05</h3>
+            <a href="./posters/data Prasaritha.png"
+              ><img src="./posters/data Prasaritha.png" alt="prasaritha"
+            /></a>
+          </div>
+          <div class="WhiteSpace"></div>
+          <div class="EventDetails">
+            <h1>DATA PRASARITHA</h1>
+            <p>
+              👩‍💻✨One Post at a Time! Unleash your creativity and technical
+              flair in Data Prasaritha, an exciting Instagram-based contest
+              celebrating the achievements, talent, and spirit of our college
+              community
+            </p>
+            <div class="Registration">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeW1YMRFaH5uKg4gZPfOAVwJA1Ow9433-4bG21wsN90B8j1ug/viewform?usp=sf_link"
+                class="button"
+              >
+                Register Now</a
+              >
+              <a href="DataPrasaritha.html">Know More..</a>
+            </div>
+          </div>
+        </div>
+        <div class="Eventline" id="last-line"></div>
+      </div>
+      <!-- script for fadeup anim -->
+      <script>
+        const fadeUpElements = document.querySelectorAll(".fade-up");
 
-<!-- Events Section Ended -->
+        const checkFadeUp = () => {
+          const triggerBottom = (window.innerHeight / 5) * 4;
 
-<!-- OUR TEAMS STARTED -->
+          fadeUpElements.forEach((element) => {
+            const boxTop = element.getBoundingClientRect().top;
 
-<div class="SectionTEams" id="TeamSection">
-    <a href="Webteam.html">
-    <div class="Teams1">
-      <div class="WEBTEAM ">
-        <h1 class="sadaaf">Our Web Team  </h1>
-        <div class="sahesasa">      
-           <svg xmlns="http://www.w3.org/2000/svg" class="arrowicon arrowicon2" viewBox="0 0 448 512">.<path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
-        </div>   
+            if (boxTop < triggerBottom) {
+              element.classList.add("visible");
+            } else {
+              element.classList.remove("visible");
+            }
+          });
+        };
+
+        window.addEventListener("scroll", checkFadeUp);
+        window.addEventListener("load", checkFadeUp); // Check on load as well
+      </script>
+
+      <!-- Events Section Ended -->
+      <!-- gallery section -->
+      <div id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="carousel">
+          <button class="carousel-button left" id="prevBtn">❮</button>
+          <div class="carousel-images">
+            <img src="./gall/img_1.jpg" alt="img-1" class="carousel-image" />
+            <img src="./gall/img_3.jpg" alt="img-2" class="carousel-image" />
+            <img src="./gall/img_4.jpg" alt="img-3" class="carousel-image" />
+            <img src="./gall/img_5.jpg" alt="img-4" class="carousel-image" />
+            <img src="./gall/img_6.jpg" alt="img-5" class="carousel-image" />
+            <img src="./gall/img_7.jpg" alt="img-6" class="carousel-image" />
+          </div>
+          <button class="carousel-button right" id="nextBtn">❯</button>
+        </div>
+      </div>
+      <!-- gallery script -->
+      <script>
+        //script for handling gall in mobile devs
+        document.addEventListener("DOMContentLoaded", function () {
+          const carouselTrack = document.querySelector(".carousel-images");
+          const images = carouselTrack.querySelectorAll("img");
+
+          // Create overlay element
+          const overlay = document.createElement("div");
+          overlay.className = "zoom-overlay";
+          document.body.appendChild(overlay);
+
+          images.forEach((image) => {
+            image.addEventListener("click", function () {
+              this.classList.toggle("zoomed");
+              overlay.classList.toggle("active");
+
+              if (this.classList.contains("zoomed")) {
+                document.body.style.overflow = "hidden";
+              } else {
+                document.body.style.overflow = "";
+              }
+            });
+          });
+
+          // Close on overlay click
+          overlay.addEventListener("click", function () {
+            const zoomedImage = document.querySelector("img.zoomed");
+            if (zoomedImage) {
+              zoomedImage.classList.remove("zoomed");
+              overlay.classList.remove("active");
+              document.body.style.overflow = "";
+            }
+          });
+
+          // Handle touch events for mobile
+          let touchStartY;
+          let touchStartX;
+
+          document.addEventListener("touchstart", function (e) {
+            const zoomedImage = document.querySelector("img.zoomed");
+            if (zoomedImage) {
+              touchStartY = e.touches[0].clientY;
+              touchStartX = e.touches[0].clientX;
+            }
+          });
+
+          document.addEventListener("touchmove", function (e) {
+            const zoomedImage = document.querySelector("img.zoomed");
+            if (zoomedImage) {
+              const touchEndY = e.touches[0].clientY;
+              const touchEndX = e.touches[0].clientX;
+              const diffY = touchStartY - touchEndY;
+              const diffX = touchStartX - touchEndX;
+
+              // Close if user swipes up/down or left/right significantly
+              if (Math.abs(diffY) > 50 || Math.abs(diffX) > 50) {
+                zoomedImage.classList.remove("zoomed");
+                overlay.classList.remove("active");
+                document.body.style.overflow = "";
+              }
+            }
+          });
+
+          // Handle escape key
+          document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape") {
+              const zoomedImage = document.querySelector("img.zoomed");
+              if (zoomedImage) {
+                zoomedImage.classList.remove("zoomed");
+                overlay.classList.remove("active");
+                document.body.style.overflow = "";
+              }
+            }
+          });
+        });
+      </script>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const track = document.querySelector(".carousel-images");
+          const slides = Array.from(track.children);
+          const nextButton = document.querySelector("#nextBtn");
+          const prevButton = document.querySelector("#prevBtn");
+
+          let currentIndex = 0;
+          const slideWidth = slides[0].getBoundingClientRect().width;
+
+          // Arrange slides next to each other
+          slides.forEach((slide, index) => {
+            slide.style.left = slideWidth * index + "px";
+          });
+
+          const moveToSlide = (currentSlide, targetSlide) => {
+            const targetIndex = slides.indexOf(targetSlide);
+            const amountToMove = targetIndex * -slideWidth;
+            track.style.transform = `translateX(${amountToMove}px)`;
+            currentIndex = targetIndex;
+          };
+
+          // Next button click
+          nextButton.addEventListener("click", () => {
+            const currentSlide = slides[currentIndex];
+            let nextSlide;
+
+            if (currentIndex === slides.length - 1) {
+              nextSlide = slides[0]; // Loop back to first slide
+            } else {
+              nextSlide = slides[currentIndex + 1];
+            }
+
+            moveToSlide(currentSlide, nextSlide);
+          });
+
+          // Previous button click
+          prevButton.addEventListener("click", () => {
+            const currentSlide = slides[currentIndex];
+            let prevSlide;
+
+            if (currentIndex === 0) {
+              prevSlide = slides[slides.length - 1]; // Loop to last slide
+            } else {
+              prevSlide = slides[currentIndex - 1];
+            }
+
+            moveToSlide(currentSlide, prevSlide);
+          });
+        });
+      </script>
+
+      <!-- OUR TEAMS STARTED -->
+
+      <div class="SectionTEams" id="TeamSection">
+        <a href="Webteam.html">
+          <div class="Teams1">
+            <div class="WEBTEAM">
+              <h1 class="sadaaf">Our Dignitaries</h1>
+              <div class="sahesasa">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrowicon arrowicon2"
+                  viewBox="0 0 448 512"
+                >
+                  .
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <div class="Teams2">
+          <a href="Coordinators.html">
+            <div class="WEBTEAM">
+              <h1 class="sadaaf cooo">Our Co-Ordinators</h1>
+              <div class="sahesasa">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrowicon arrowicon2 nolenfhtg"
+                  viewBox="0 0 448 512"
+                >
+                  .
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="text">
+        <div class="teamm1 adafasvszvz">
+          <p>
+            Our skilled web team crafted the eDatum2k25 website, ensuring
+            seamless functionality and captivating design. With their expertise,
+            they brought our vision to life
+          </p>
+        </div>
+        <div class="linsse"></div>
+        <div class="teamm2 adafasvszvz">
+          <p>
+            Our Event Coordinators Ready to Boost the eDatum 2k25 Events,
+            ensuring Improving the problem solving and making the peers Strong
+            in their technical aspects of their choose.
+          </p>
+        </div>
+
+        <div class="teamm1 csacsvz">
+          Our skilled web team crafted the eDatum2k25 website, ensuring seamless
+          functionality and captivating design. With their expertise, they
+          brought our vision to life
+        </div>
       </div>
 
-    </a>
-    </div>
+      <!-- OUR TEAMS ended -->
 
+      <!-- Footer Work Started -->
 
-    <div class="Teams2">
-        <a href="Coordinators.html"> 
-      <div class="WEBTEAM">
-        <h1 class="sadaaf cooo">Our Co-Ordinators  </h1>
-        <div class="sahesasa">      
-           <svg xmlns="http://www.w3.org/2000/svg" class="arrowicon arrowicon2 nolenfhtg" viewBox="0 0 448 512">.<path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
-        </div>   
-        
-       
-      </div>
-    </a>
-    </div>
-
-  </div>
- <div class="text">
-  <div class="teamm1 adafasvszvz">
-    <p> Our skilled web team  crafted the eDatum2k25
-      website, ensuring seamless functionality and 
-     captivating design. With their expertise, they
-      brought our vision to life</p>
-  </div>
-  <div class="linsse">
-
-  </div>
-  <div class="teamm2 adafasvszvz">
-    <p>Our Event Coordinators Ready to Boost the eDatum 2k25 Events, ensuring Improving the problem solving and making the peers Strong in their technical aspects of their choose.  </p>
-  </div>
-
-  <div class="teamm1 csacsvz">
-    Our skilled web team  crafted the eDatum2k25
-    website, ensuring seamless functionality and 
-   captivating design. With their expertise, they
-    brought our vision to life
-  </div>
- </div>
-
- <!-- OUR TEAMS ended -->
-
- <!-- Footer Work Started -->
-
- <footer>
-    <div class="edata">
-        <h1>EDATUM</h1>
-        <p>Edatum is the Annual Technical Symposium of
-            Pragati Engineering College Kakinada and
-            is one of  the largest of its kind in India.
-        </p>
-    </div>
-    <div class="linkssssaas">
-        <ul>
-         <a href="#">   <li>  Gallery  <span class="spaansad"> | </span>  </li></a>
-         <a href="#AboutText">  <li> About     <span class="spaansad"> | </span></li></a>
-         <a href="https://pragati.ac.in/">  <li> Pragati   <span class="spaansad"> | </span> </li></a>
-         <a href="#EventsTab">    <li>  Events  </li></a>
-        </ul>
-        <div class="newsletter">
-            <input type="email" placeholder="abc@gmail.com" id="myInput" value="" class="inputemail" required>
+      <footer>
+        <div class="edata">
+          <h1>EDATUM</h1>
+          <p>
+            Edatum is the Annual Technical Symposium of Pragati Engineering
+            College Kakinada and is one of the largest of its kind in India.
+          </p>
+        </div>
+        <div class="linkssssaas">
+          <ul>
+            <a href="#">
+              <li>Gallery <span class="spaansad"> | </span></li></a
+            >
+            <a href="#AboutText">
+              <li>About <span class="spaansad"> | </span></li></a
+            >
+            <a href="https://pragati.ac.in/">
+              <li>Pragati <span class="spaansad"> | </span></li></a
+            >
+            <a href="#EventsTab"> <li>Events</li></a>
+          </ul>
+          <div class="newsletter">
+            <input
+              type="email"
+              placeholder="JohnDoe@gmail.com"
+              id="myInput"
+              value=""
+              class="inputemail"
+              required
+            />
             <button onclick="getValue()">NewsLetter</button>
-        </div>
-        <script>
-            function getValue(){
-                
-                var inputField = document.getElementById("myInput");
+          </div>
+          <script>
+            function getValue() {
+              var inputField = document.getElementById("myInput");
 
-                // Get the value from the input field
-                var email = inputField.value;
-                /* if(value== 0 ){
+              // Get the value from the input field
+              var email = inputField.value;
+              /* if(value== 0 ){
                     alert("Please enter the Email");
                 }
                 else{
                     alert();
                 } */
-                // Display the value in an alert
-                var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+              // Display the value in an alert
+              var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-                // Check if the entered value matches the email pattern
-                if (emailPattern.test(email)) {
-                    alert(email + " Successfully Registered ");
-                } else {
-                    alert("Please enter a valid email address.");
-                }
-                
+              // Check if the entered value matches the email pattern
+              if (emailPattern.test(email)) {
+                alert(email + " Successfully Registered ");
+              } else {
+                alert("Please enter a valid email address.");
+              }
             }
-        </script>
+          </script>
+        </div>
+      </footer>
+      <div class="footer2">
+        <h4>&copy; 2024 All rights reserved | Web Team Pragati</h4>
+      </div>
+
+      <!-- Footer ended -->
     </div>
-</footer>
-<div class="footer2">
-    <h4>© 2025 Copyright Engineer | Designed by Saketh Phaneendra & Team.</h4>
-</div>
-
-<!-- Footer ended -->
-
-</div>
-</div>
-</body>
+  </body>
 </html>

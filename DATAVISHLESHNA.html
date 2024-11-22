@@ -1,96 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon" />
     <title>EDatum | DATA VISHLESHNA</title>
-    <link rel="stylesheet" href="nav.css">
-</head>
-<body>
-    <link rel="stylesheet" href="DATAVISHLESHNA.css">
-
-    <nav>
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <link rel="stylesheet" href="Webteam.css" />
+    <link rel="stylesheet" href="DATAVISHLESHNA.css" />
+    <div id="nav-bar">
+      <nav>
         <div class="asd">
-            
-            <h1>EDATUM</h1>
-            
+          <img src="./EDATUM Logo.png" id="nav-logo" />
         </div>
-           
-       
+
         <div class="hamburger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="index.html">Events</a></li>
-            <li><a href="#">Gallery</a></li>
-         <div class="dadadadadad">
-          <a href="index.html">  <li> <button class="login-button">  Contact Us </button></li> </a>
-         </div>
-           
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Events</a></li>
+          <li><a href="index.html">Gallery</a></li>
+          <div class="dadadadadad">
+            <a href="Coordinators.html">
+              <li><button class="login-button">About Us</button></li>
+            </a>
+          </div>
         </ul>
-       
-
 
         <script>
-            const hamburger = document.querySelector(".hamburger");
-    const navLinks = document.querySelector(".nav-links");
-    const links = document.querySelectorAll(".nav-links li");
-    
-    hamburger.addEventListener('click', ()=>{
-       //Animate Links
-        navLinks.classList.toggle("open");
-        links.forEach(link => {
-            link.classList.toggle("fade");
-        });
-    
-        //Hamburger Animation
-        hamburger.classList.toggle("toggle");
-    });
+          const hamburger = document.querySelector(".hamburger");
+          const navLinks = document.querySelector(".nav-links");
+          const links = document.querySelectorAll(".nav-links li");
+
+          hamburger.addEventListener("click", () => {
+            //Animate Links
+            navLinks.classList.toggle("open");
+            links.forEach((link) => {
+              link.classList.toggle("fade");
+            });
+
+            //Hamburger Animation
+            hamburger.classList.toggle("toggle");
+          });
         </script>
-    </nav>
+      </nav>
+    </div>
     <div class="Eventssssss">
-        <div class="EventsList">
-            
-            <div class="EventPic">
-                <h3>01</h3>
-                <img src="Data Vishleshana.jpg" alt="">
-            </div>
-           
-            <div class="EventDetails">
-                <h1>DATA VISHLESHNA</h1>
-                <p>
-                   <b><u> SUMMARY: </u>  </b>  <br><br>
-A technical quiz is like a fun challenge where people answer questions related to technology. It tests your knowledge about computers, gadgets, and other technical stuff. It's a great way to learn and have some friendly competition with others who are interested in tech!
-<br>
-<br> <b><u>  DESCRIPTION:</u></b><br><br>
-Tech quiz is like a brain workout! 🧠🔧 Test your IT smarts with questions on coding, gadgets, and geeky stuff. Fun way to flex those tech muscles! 🚀 
-<br>1.Overall event is going to be conducted in “Two “ levels.
+      <div class="EventsList">
+        <div class="EventPic">
+          <h3>01</h3>
+          <img src="./posters/data vishleshana.png" alt="vishleshana" />
+        </div>
 
-<br>2.Each level contains certain number of question.
+        <div class="EventDetails">
+          <h1>DATA VISHLESHNA</h1>
+          <p>
+            <b><u> SUMMARY: </u> </b> <br />
+            Get ready for an exciting and innovative quiz experience where you
+            can showcase your data science prowess. Join us in this thrilling
+            journey to challenge your knowledge, learn new concepts, and connect
+            with fellow data enthusiasts. Let's dive into the world of data and
+            analytics together. Happy quizzing!
+            <br />
+            <br />
+            <b><u> DESCRIPTION:</u></b
+            ><br />
+            Welcome to the Tech Quiz! Tech quiz is like a brain workout! 🧠🔧
+            Test your IT smarts with questions on coding, gadgets, and all
+            things geeky. It’s a fun way to flex those tech muscles! 🚀
+            <br /><br />
+            <b><u> INSTRUCTIONS:</u></b> <br />1.Three Levels: The event
+            consists of three exciting levels.
 
-<br>3.In each level each question carries points to earn.
+            <br />2.Questions and Points: Each level contains a specific number
+            of questions, with each question carrying points that you can earn.
 
-<br>4.Participants should reach the boundary of qualifying points for further participation in next levels.
+            <br />3.Qualifying Points: Participants must reach a certain
+            threshold of points to qualify for the next level..
 
-<br>5.⏰Time will be limited for each level based on number of questions.
+            <br />4.Time Limit: ⏰ Time is limited for each level based on the
+            number of questions. Use it wisely!
 
-<br>6.Most of the questions might be framed on Data analysis (Dataset / pictorial charts📊 / informative paragraphs etc.,)
+            <br />Content Focus: Expect most questions to revolve around data
+            analysis, including datasets, pictorial charts 📊, and informative
+            paragraphs.
 
-<br>7.Automatically quiz will be submitted once the time limit is completed.
-
-                </p>
-                <div class="Registration">
-                    <a href="" class="button">  Register Now</a>
-                    
+            <br />Automatic Submission: The quiz will automatically submit once
+            the time limit is reached. Get ready to dive deep into the world of
+            technology and showcase your prowess. Good luck, and may the best
+            techie win!
+          </p>
+          <div class="Registration">
+            <a href="https://forms.gle/PXE86wU1MCe6aWWJA" class="button">
+              Register Now</a
+            >
+          </div>
+        </div>
+        <section class="section-team">
+          <div class="container">
+            <!-- Start Header Section -->
+            <div class="row justify-content-center text-center">
+              <div class="col-md-8 col-lg-6">
+                <div class="header-section">
+                  <h3 class="small-title">Event Co-ordinators</h3>
+                  <h2 class="title" style="color: white">
+                    👋 Let's meet our team
+                  </h2>
                 </div>
+              </div>
             </div>
-        
+            <!-- / End Header Section -->
+            <div class="row">
+              <!-- Start Single Person -->
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="single-person">
+                  <div class="person-image">
+                    <img src="" alt="" />
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </div>
+                  <div class="person-info">
+                    <h5 class="full-name">Sneha.Dindi</h5>
+                    <span class="speciality">Event Co-ordinator</span>
+                    <br /><br />
+                    <a
+                      href="https://www.linkedin.com/in/sneha-dindi-241004301295sdkt"
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        padding: 5px 10px;
+                        background-color: white;
+                        color: #0077b5;
+                        text-decoration: none;
+                        border: 1px solid #0077b5;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                        transition: background-color 0.3s, color 0.3s;
+                      "
+                      onmousedown="this.style.backgroundColor='#0077B5'; this.style.color='white';"
+                      onmouseup="this.style.backgroundColor='white'; this.style.color='#0077B5';"
+                    >
+                      LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="single-person">
+                  <div class="person-image">
+                    <img src="" alt="" />
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </div>
+                  <div class="person-info">
+                    <h5 class="full-name">V.Yagnesh</h5>
+                    <span class="speciality">Event Co-ordinator</span>
+                    <br /><br />
+                    <a
+                      href="https://www.linkedin.com/in/vepada-yagnesh-458358259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        padding: 5px 10px;
+                        background-color: white;
+                        color: #0077b5;
+                        text-decoration: none;
+                        border: 1px solid #0077b5;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                        transition: background-color 0.3s, color 0.3s;
+                      "
+                      onmousedown="this.style.backgroundColor='#0077B5'; this.style.color='white';"
+                      onmouseup="this.style.backgroundColor='white'; this.style.color='#0077B5';"
+                    >
+                      LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="single-person">
+                  <div class="person-image">
+                    <img src="" alt="" />
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </div>
+                  <div class="person-info">
+                    <h5 class="full-name">M.Namratha</h5>
+                    <span class="speciality">Event Co-ordinator</span>
+                    <br /><br />
+                    <a
+                      href="https://www.linkedin.com/in/manne-namratha-sai-029771259/"
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        padding: 5px 10px;
+                        background-color: white;
+                        color: #0077b5;
+                        text-decoration: none;
+                        border: 1px solid #0077b5;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                        transition: background-color 0.3s, color 0.3s;
+                      "
+                      onmousedown="this.style.backgroundColor='#0077B5'; this.style.color='white';"
+                      onmouseup="this.style.backgroundColor='white'; this.style.color='#0077B5';"
+                    >
+                      LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="single-person">
+                  <div class="person-image">
+                    <img src="" alt="" />
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </div>
+                  <div class="person-info">
+                    <h5 class="full-name">R.Soma Shekar</h5>
+                    <span class="speciality">Event Co-ordinator</span>
+                    <br /><br />
+                    <a
+                      href="https://www.linkedin.com/in/rayavarapu-shekar-772004s"
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        padding: 5px 10px;
+                        background-color: white;
+                        color: #0077b5;
+                        text-decoration: none;
+                        border: 1px solid #0077b5;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                        transition: background-color 0.3s, color 0.3s;
+                      "
+                      onmousedown="this.style.backgroundColor='#0077B5'; this.style.color='white';"
+                      onmouseup="this.style.backgroundColor='white'; this.style.color='#0077B5';"
+                    >
+                      LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-    </div>
-</body>
+  </body>
 </html>

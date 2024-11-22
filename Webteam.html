@@ -1,92 +1,150 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
-    <link rel="stylesheet" href="Webteam.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="Webteam.css" />
+  </head>
+  <style>
+    /* Update the person-image and img styles */
+    .section-team .single-person .person-image {
+      position: relative;
+      margin-bottom: 50px;
+      border-radius: 50%;
+      border: 4px dotted transparent;
+      transition: padding 0.3s;
+      width: 200px; /* Fixed width for image container */
+      height: 200px; /* Fixed height for image container */
+      margin: 0 auto 30px; /* Center the image and add bottom margin */
+      overflow: hidden; /* Ensure image stays within container */
+    }
 
-<body>
+    .section-team .single-person .person-image img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover; /* Maintain aspect ratio while covering container */
+      object-position: center; /* Center the image */
+    }
 
-	<section class="section-team">
-		<div class="container">
-			<!-- Start Header Section -->
-			<div class="row justify-content-center text-center">
-				<div class="col-md-8 col-lg-6">
-					<div class="header-section">
-						<h3 class="small-title"></h3>
-						<h2 class="title">  👋 Let's meet our team </h2>
-					</div>
-				</div>
-			</div>
-			<!-- / End Header Section -->
-			<div class="row">
-				<!-- Start Single Person -->
-				<div class="col-sm-6 col-lg-4 col-xl-3">
-					<div class="single-person">
-						<div class="person-image">
-							<img src="" alt="">
-							<span class="icon">
-								
-                                <i class="fab fa-linkedin-in"></i>
-							</span>
-						</div>
-						<div class="person-info">
-							<h3 class="full-name"></h3>
-							<span class="speciality">Team Lead </span>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-lg-4 col-xl-3">
-					<div class="single-person">
-						<div class="person-image">
-							<img src="" alt="">
-							<span class="icon">
-                                <i class="fab fa-linkedin-in"></i>
-							</span>
-						</div>
-						<div class="person-info">
-							<h3 class="full-name"></h3>
-							<span class="speciality">Developer</span>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-lg-4 col-xl-3">
-					<div class="single-person">
-						<div class="person-image">
-							<img src="" alt="">
-							<span class="icon">
-                                <i class="fab fa-linkedin-in"></i>
-							</span>
-						</div>
-						<div class="person-info">
-							<h3 class="full-name"> </h3>
-							<span class="speciality">Developer</span></div>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-lg-4 col-xl-3">
-					<div class="single-person">
-						<div class="person-image">
-							<img src="" alt="">
-							<span class="icon">
-                                <i class="fab fa-linkedin-in"></i>
-							</span>
-						</div>
-						<div class="person-info">
-							<h3 class="full-name"></h3>
-							<span class="speciality">Support</span></div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
+    /* Update single-person container */
+    .section-team .single-person {
+      margin-top: 30px;
+      padding: 30px;
+      background-color: #f6f9ff;
+      border-radius: 5px;
+      min-height: 400px; /* Fixed minimum height for all cards */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-</body>
+    /* Adjust person-info for better alignment */
+    .section-team .single-person .person-info {
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Responsive adjustments */
+    @media only screen and (max-width: 768px) {
+      .section-team .single-person .person-image {
+        width: 180px; /* Slightly smaller for mobile */
+        height: 180px;
+      }
+
+      .section-team .single-person {
+        min-height: 380px;
+      }
+    }
+  </style>
+  <body>
+    <section class="section-team">
+      <div class="container">
+        <!-- Start Header Section -->
+        <div class="row justify-content-center text-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="header-section">
+              <h3 class="small-title"></h3>
+              <h2 class="title">Our Honourable Dignitaries</h2>
+            </div>
+          </div>
+        </div>
+        <!-- / End Header Section -->
+        <div class="row">
+          <!-- Start Single Person -->
+
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="./img/Chief patron.jpg" alt="Chief patron" />
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">CHEIF PATRON</h3>
+                <span
+                  class="speciality"
+                  style="text-transform: none; font-size: 2.8vh"
+                >
+                  Dr.P.Krishna Rao </span
+                ><br /><br />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="./img/patron.jpg" alt="patron" />
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">PATRON</h3>
+                <span
+                  class="speciality"
+                  style="text-transform: none; font-size: 2.8vh"
+                  >Dr.G.Naresh</span
+                ><br /><br />
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="./img/convenor.png" alt="convenor" />
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">CONVENOR</h3>
+                <span
+                  class="speciality"
+                  style="text-transform: none; font-size: 2.8vh"
+                  >Dr.A.Radha Krishna</span
+                ><br /><br />
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="./img/hod.jpg" alt="hod" />
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">HOD-CSE(DS)</h3>
+                <span
+                  class="speciality"
+                  style="text-transform: none; font-size: 2.8vh"
+                  >Dr.M.V.Rajesh</span
+                ><br /><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

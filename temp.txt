@@ -1,0 +1,144 @@
+//style.css
+/* Add these styles to your CSS */
+.homepagesection {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  perspective: 1000px;
+}
+
+#hero-sec {
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+#date {
+  transform: translateZ(50px);
+  position: relative;
+  z-index: 2;
+}
+
+#m-img-sec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(-50px);
+  z-index: 1;
+  background: url('your-background-image.jpg') no-repeat center center;
+  background-size: cover;
+  filter: brightness(0.8);
+}
+
+//script
+<!-- Add this script just before closing body tag -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const heroSection = document.querySelector('.homepagesection');
+    const date = document.querySelector('#date');
+    const bgSection = document.querySelector('#m-img-sec');
+
+    window.addEventListener('scroll', () => {
+      const scrolled = window.pageYOffset;
+      const rate = scrolled * 0.5;
+      
+      // Parallax effect for the date section
+      date.style.transform = `translateZ(50px) translateY(${rate * 0.5}px)`;
+      
+      // Opposite parallax effect for the background
+      bgSection.style.transform = `translateZ(-50px) translateY(${rate * 0.3}px)`;
+      
+      // Optional: Add fade effect
+      heroSection.style.opacity = 1 - Math.max(0, scrolled / window.innerHeight);
+    });
+  });
+</script>
+//new
+<!-- Add this HTML for the gallery section -->
+<div id="gallery" class="gallery">
+  <div class="carousel">
+    <button class="carousel-button left" id="prevBtn">❮</button>
+    <div class="carousel-images">
+      <img src="./gall/img_1.jpg" alt="img-1" class="carousel-image" />
+      <img src="./gall/img_2.jpg" alt="img-2" />
+      <img src="./gall/img_3.jpg" alt="img-3" />
+    </div>
+    <button class="carousel-button right" id="nextBtn">❯</button>
+  </div>
+</div>
+
+<!-- Add this CSS to your stylesheet -->
+<style>
+  .gallery {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--background-color); /* Match background to theme */
+    color: var(--text-color); /* Match text color to theme */
+  }
+
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-image {
+    min-width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+
+  .carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .left {
+    position: absolute;
+    left: 10px;
+  }
+
+  .right {
+    position: absolute;
+    right: 10px;
+  }
+</style>
+
+<!-- Add this JavaScript at the end of your body -->
+<script>
+  const images = document.querySelectorAll('.carousel-image');
+  const nextBtn = document.getElementById('nextBtn');
+  const prevBtn = document.getElementById('prevBtn');
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const totalImages = images.length;
+    const offset = -currentIndex * 100; // Move the carousel based on the current index
+    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+  }
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+    updateCarousel();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length; // Loop back to the last image
+    updateCarousel();
+  });
+</script>

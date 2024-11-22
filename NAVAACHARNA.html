@@ -1,99 +1,273 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EDatum | NAVAACHARANA</title>
-    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon">
-    <link rel="stylesheet" href="nav.css">
-</head>
-<body>
-    <link rel="stylesheet" href="NAVAACHARNA.css">
+    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <link rel="stylesheet" href="NAVAACHARNA.css" />
+    <link rel="stylesheet" href="Webteam.css" />
     <nav>
-        <div class="asd">
-            
-            <h1>EDATUM</h1>
-            
-        </div>
-           
-       
-        <div class="hamburger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="index.html">Events</a></li>
-            <li><a href="#">Gallery</a></li>
-         <div class="dadadadadad">
-          <a href="index.html">  <li> <button class="login-button">  Contact Us </button></li> </a>
-         </div>
-           
-        </ul>
-       
+      <div class="asd">
+        <img src="./EDATUM Logo.png" id="nav-logo" />
+      </div>
 
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="index.html">Events</a></li>
+        <li><a href="index.html">Gallery</a></li>
+        <div class="dadadadadad">
+          <a href="Coordinators.html">
+            <li><button class="login-button">About Us</button></li>
+          </a>
+        </div>
+      </ul>
 
-        <script>
-            const hamburger = document.querySelector(".hamburger");
-    const navLinks = document.querySelector(".nav-links");
-    const links = document.querySelectorAll(".nav-links li");
-    
-    hamburger.addEventListener('click', ()=>{
-       //Animate Links
-        navLinks.classList.toggle("open");
-        links.forEach(link => {
+      <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
+        const links = document.querySelectorAll(".nav-links li");
+
+        hamburger.addEventListener("click", () => {
+          //Animate Links
+          navLinks.classList.toggle("open");
+          links.forEach((link) => {
             link.classList.toggle("fade");
+          });
+
+          //Hamburger Animation
+          hamburger.classList.toggle("toggle");
         });
-    
-        //Hamburger Animation
-        hamburger.classList.toggle("toggle");
-    });
-        </script>
+      </script>
     </nav>
 
     <div class="Eventssssss">
-        <div class="EventsList">
-            
-            <div class="EventPic">
-                <h3>02</h3>
-                <img src="Navaacharana.jpg" alt="">
-            </div>
-           
-            <div class="EventDetails">
-                <h1>NAVAACHARANA </h1>
-                <p>
-                   <b><u> SUMMARY: </u>  </b>  <br><br>
-                   🎯 Welcome to the Innovative Ideas Contest,the stage is yours for the next big idea!
-                   "NAVAACHARAN( idea expo💡): Embrace the opportunity to make a meaningful impact with your forward-thinking ideas. Join the competition and be part of the driving force shaping the future! "
-<br>
-<br> <b><u>  DESCRIPTION:</u></b><br><br>
-Unleash your creativity in our Innovation Challenge! 🎖This contest invites teams to submit ground breaking ideas that address real-world challenges and submit visionary solutions that redefine the future.
+      <div class="EventsList">
+        <div class="EventPic">
+          <h3>02</h3>
+          <img src="./posters/Navacharana.png" alt="navacharana" />
+        </div>
 
-To participate in this contest, follow these steps:
+        <div class="EventDetails">
+          <h1>NAVAACHARANA</h1>
+          <p>
+            <b><u> SUMMARY: </u> </b> <br /><br />
+            🎯 Welcome to the Innovative Ideas Contest,the stage is yours for
+            the next big idea! "NAVAACHARAN( idea expo💡): Embrace the
+            opportunity to make a meaningful impact with your forward-thinking
+            ideas. Join the competition and be part of the driving force shaping
+            the future! "
+            <br />
+            <b><u> DESCRIPTION:</u></b
+            ><br /><br />
+            Unleash your creativity in our Innovation Challenge! 🎖This contest
+            invites teams to submit ground breaking ideas that address
+            real-world challenges and submit visionary solutions that redefine
+            the future. 🎯Submit transformative ideas that tackle real-world
+            challenges and redefine the future. To participate in this contest,
+            follow these steps: To participate in this contest, follow these
+            steps:
+            <br /><br /><b><u> INSTRUCTIONS:</u></b
+            ><br />
+            <br />1.Online Mode: The event will be conducted online via Google
+            Meet. -👥Team Size -Form teams of 2-5 members. <br />2.Presentation
+            Format📈: Choose either: - Video presentation (max 10 minutes) -
+            PowerPoint presentation (minimum 6 slides)
 
-<br>1.Familiarise yourself with your own idea.
+            <br />3.Time Slots⏰:Each team will be allocated a specific time
+            slot for presentation.
 
-<br>2.Team size should be 2(minimum)-5(maximum).
+            <br />4.Originality:Ensure your idea and presentation are original;
+            duplicates will not be permitted.
 
-<br>3.Gain comprehensive insights into the selected idea through diligent research and study.
+            <br />5.Research and Analysis📊:Conduct thorough research and
+            analysis on your selected idea.
 
-<br>4.Choose the best method to present the information, you can use either video or PPT format.
-
-<br>5. Ensure that your idea presentation is original and not copied from any other source.
-
-<br>6. 🚫 Duplicate will not be permitted.
-
-                </p>
-                <div class="Registration">
-                    <a href="" class="button">  Register Now</a>
-                    
+            <br />6. 🚫 Duplicate will not be permitted. <br />7.Evaluation
+            Criteria: - Innovation and creativity - Impact potential -
+            Feasibility and scalability - Clarity and effectiveness of
+            presentation Join the Movement: Be part of the driving force shaping
+            the future. Showcase your forward-thinking ideas 💡 and make a
+            meaningful impact!
+          </p>
+          <div class="Registration">
+            <a href="https://forms.gle/KzTBQhAQiXksULk69" class="button">
+              Register Now</a
+            >
+          </div>
+        </div>
+        <section class="section-team">
+          <div class="container">
+            <!-- Start Header Section -->
+            <div class="row justify-content-center text-center">
+              <div class="col-md-8 col-lg-6">
+                <div class="header-section">
+                  <h3 class="small-title">Event Co-ordinators</h3>
+                  <h2 class="title" style="color: white">
+                    👋 Let's meet our team
+                  </h2>
                 </div>
+              </div>
             </div>
-        
+            <!-- / End Header Section -->
+            <div class="row">
+              <!-- Start Single Person -->
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="single-person">
+                  <div class="person-image">
+                    <img src="" alt="" />
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </div>
+                  <div class="person-info">
+                    <h5 class="full-name">P.Charishma</h5>
+                    <span class="speciality">Event Co-Ordinator </span>
+                    <br /><br />
+                    <a
+                      href="https://www.linkedin.com/in/charishma-p-a23278259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        padding: 5px 10px;
+                        background-color: white;
+                        color: #0077b5;
+                        text-decoration: none;
+                        border: 1px solid #0077b5;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                        transition: background-color 0.3s, color 0.3s;
+                      "
+                      onmousedown="this.style.backgroundColor='#0077B5'; this.style.color='white';"
+                      onmouseup="this.style.backgroundColor='white'; this.style.color='#0077B5';"
+                    >
+                      LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="single-person">
+                  <div class="person-image">
+                    <img src="" alt="" />
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </div>
+                  <div class="person-info">
+                    <h5 class="full-name">P.Karthik Kumar</h5>
+                    <span class="speciality">Event Co-Ordinator</span>
+                    <br /><br />
+                    <a
+                      href=""
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        padding: 5px 10px;
+                        background-color: white;
+                        color: #0077b5;
+                        text-decoration: none;
+                        border: 1px solid #0077b5;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                        transition: background-color 0.3s, color 0.3s;
+                      "
+                      onmousedown="this.style.backgroundColor='#0077B5'; this.style.color='white';"
+                      onmouseup="this.style.backgroundColor='white'; this.style.color='#0077B5';"
+                    >
+                      LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="single-person">
+                  <div class="person-image">
+                    <img src="" alt="" />
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </div>
+                  <div class="person-info">
+                    <h5 class="full-name">B.Anusha</h5>
+                    <span class="speciality">Event Co-Ordinator</span>
+                    <br /><br />
+                    <a
+                      href="https://www.linkedin.com/in/anusha-bikkina-a585a532a/"
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        padding: 5px 10px;
+                        background-color: white;
+                        color: #0077b5;
+                        text-decoration: none;
+                        border: 1px solid #0077b5;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                        transition: background-color 0.3s, color 0.3s;
+                      "
+                      onmousedown="this.style.backgroundColor='#0077B5'; this.style.color='white';"
+                      onmouseup="this.style.backgroundColor='white'; this.style.color='#0077B5';"
+                    >
+                      LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="single-person">
+                  <div class="person-image">
+                    <img src="" alt="" />
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </div>
+                  <div class="person-info">
+                    <h5 class="full-name">Ch.Sriram</h5>
+                    <span class="speciality"> Event Co-Ordinator</span>
+                    <br /><br />
+                    <a
+                      href="https://www.linkedin.com/in/chodavarapu-sriram-074887259/"
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        padding: 5px 10px;
+                        background-color: white;
+                        color: #0077b5;
+                        text-decoration: none;
+                        border: 1px solid #0077b5;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                        transition: background-color 0.3s, color 0.3s;
+                      "
+                      onmousedown="this.style.backgroundColor='#0077B5'; this.style.color='white';"
+                      onmouseup="this.style.backgroundColor='white'; this.style.color='#0077B5';"
+                    >
+                      LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-    </div>
-</body>
+  </body>
 </html>
