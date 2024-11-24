@@ -46,7 +46,9 @@ html {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .AboutColum p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: justify;
   font-weight: bolder;
 }
 .AboutColum p #del {
@@ -156,7 +158,7 @@ html {
     box-shadow: 14px 22px 10px rgba(28, 19, 85, 0.65);
   }
   .Registration .button {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -255,6 +257,7 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
+  text-align: justify;
   line-height: 200%;
   padding: 40px 0;
 }
@@ -379,7 +382,7 @@ html {
   font-size: 100px;
   font-family: "Noto Sans Meetei Mayek", sans-serif;
   font-weight: bolder;
-  background-image: linear-gradient(to bottom, #6abbcc, #012d37, #000e33);
+  background-image: linear-gradient(to bottom, #9cdae7, #044554, #000e33);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -913,7 +916,22 @@ div:after {
   color: var(--text-color) !important; /* Use theme text color */
   font-weight: bold;
 }
-
+@media only screen and (max-width: 450px) {
+  .Registration a {
+    margin-top: 1.5vh;
+    padding: 3% 34%;
+    border: 2px var(--text-color) solid;
+    border-radius: 12px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Registration a {
+    margin-top: 1.5vh;
+    padding: 3% 34%;
+    border: 2px var(--text-color) solid;
+    border-radius: 12px;
+  }
+}
 /* Update these selectors to use CSS variables */
 body {
   background-color: var(--background-color);
