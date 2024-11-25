@@ -916,14 +916,12 @@ div:after {
   color: var(--text-color) !important; /* Use theme text color */
   font-weight: bold;
 }
-@media only screen and (max-width: 450px) {
   .Registration a {
     margin-top: 1.5vh;
-    padding: 3% 34%;
+    padding: 2% 4%;
     border: 2px var(--text-color) solid;
     border-radius: 12px;
   }
-}
 @media only screen and (max-width: 480px) {
   .Registration a {
     margin-top: 1.5vh;
@@ -1721,12 +1719,5 @@ body {
   .carousel-image.zoomed {
     display: none; /* Hide zoomed images on mobile */
   }
-}
-.buttonclass{
-  width: 100px;
-  height: 35px;
-  font-size: 12px;
-  margin-right: 5%;
-  font-weight : bold;
 }
 
