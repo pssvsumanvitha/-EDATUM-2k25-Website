@@ -1722,31 +1722,9 @@ body {
     display: none; /* Hide zoomed images on mobile */
   }
 }
-<style>
-  .buttonclass {
-    padding: 10px 20px; /* Size of the button */
-    background-color: #007BFF; /* Blue background */
-    color: white; /* White text */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Bold text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover and click effects */
-  }
-
-  .buttonclass:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    transform: scale(1.05); /* Slightly enlarge button on hover */
-  }
-
-  .buttonclass:active {
-    transform: scale(0.95); /* Slightly shrink button on click */
-  }
-
-  /* Optional: Remove underline from the link */
-  a {
-    text-decoration: none;
-  }
-</style>
-
+.buttonclass{
+  width: 100px;
+    height: 35px;
+    font-size: 12px;
+    margin-right: 5%;
+}
