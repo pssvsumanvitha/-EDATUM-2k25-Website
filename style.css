@@ -1724,7 +1724,38 @@ body {
 }
 .buttonclass{
   width: 100px;
-    height: 35px;
-    font-size: 12px;
-    margin-right: 5%;
+  height: 35px;
+  font-size: 12px;
+  margin-right: 5%;
+}
+.buttonclass .button::after {
+  background: var(--button-bg, var(--background-color));
+}
+.buttonclass .button {
+  background: var(--background-color);
+  color: var(--text-color) !important; /* Use theme text color */
+  font-weight: bold;
+}
+@media only screen and (max-width: 450px) {
+  .buttonclass a {
+    margin-top: 1.5vh;
+    padding: 3% 34%;
+    border: 2px var(--text-color) solid;
+    border-radius: 12px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .buttonclass a {
+    margin-top: 1.5vh;
+    padding: 3% 34%;
+    border: 2px var(--text-color) solid;
+    border-radius: 12px;
+  }
+}
+/* Update these selectors to use CSS variables */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  overflow: hidden;
 }
