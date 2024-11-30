@@ -133,9 +133,7 @@ h4 {
   justify-content: center; /* Centers the cards horizontally */
   align-items: center; /* Centers the cards vertically */
   gap: 20px; /* Adds space between the cards */
-  margin: 20px 0; 
-  margin-top: 30px;
-  padding: 30px;/* Optional: Adds margin to the container */
+  margin: 20px 0; /* Optional: Adds margin to the container */
 }
 
 .card {
