@@ -128,3 +128,46 @@ h4 {
     min-height: 280px;
   }
 }
+.cards-container {
+  display: flex;
+  justify-content: center; /* Centers the cards horizontally */
+  align-items: center; /* Centers the cards vertically */
+  gap: 20px; /* Adds space between the cards */
+  margin: 20px 0; /* Optional: Adds margin to the container */
+}
+
+.card {
+  width: 250px; /* Adjust as per your preference */
+}
+
+.single-person {
+  text-align: center; /* Centers the content inside the card */
+  background-color: #f9f9f9; /* Optional: Background color for the card */
+  border-radius: 10px; /* Optional: Rounds the corners of the card */
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.person-image img {
+  width: 100%;
+  border-radius: 50%; /* Makes the image circular */
+}
+
+.linkedin-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: white;
+  color: #0077b5;
+  text-decoration: none;
+  border: 1px solid #0077b5;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.linkedin-btn:active {
+  background-color: #0077b5;
+  color: white;
+}
+
