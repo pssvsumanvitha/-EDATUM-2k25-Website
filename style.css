@@ -1729,28 +1729,3 @@ body {
   color: white; /* Ensures text is visible on a dark background */
   border-radius: 10px; /* Optional: adds rounded corners */
 }
-
-/* Style the EventDetails for better readability */
-.EventDetails {
-  background: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent black background */
-  padding: 20px;
-  border-radius: 10px; /* Optional: adds rounded corners */
-}
-
-/* Button Styles */
-.button {
-  background-color: #0077b5;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-right: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #005580;
-}
-
-
