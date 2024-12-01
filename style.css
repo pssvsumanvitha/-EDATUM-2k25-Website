@@ -1729,7 +1729,7 @@ body {
     font-weight: bold; 
     text-decoration: none; 
     color: white; 
-    background-color: #28a745; 
+    background-color: #D6B3FF; 
     border: none; 
     border-radius: 8px; 
     transition: background-color 0.3s ease; 
@@ -1737,7 +1737,7 @@ body {
 }
 
 .btn-know-more:hover {
-    background-color: #1e7e34; 
+    background-color: #B58CE6; 
     cursor: pointer; 
 }
 
