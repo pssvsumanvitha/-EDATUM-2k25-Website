@@ -6,6 +6,7 @@
 * {
   text-decoration: none;
   text-align: center;
+  background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
 }
 html {
   scroll-behavior: smooth;
