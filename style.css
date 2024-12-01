@@ -1728,6 +1728,7 @@ body {
     font-size: 16px; /* Font size */
     font-weight: bold; /* Makes text bold */
     text-decoration: none; /* Removes underline */
+    color : black;
     border: none; /* Removes border */
     border-radius: 8px; /* Rounded corners */
     transition: background-color 0.3s ease; /* Smooth hover effect */
