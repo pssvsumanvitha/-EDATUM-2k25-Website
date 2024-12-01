@@ -1735,7 +1735,6 @@ body {
 }
 
 .btn-know-more:hover {
-    background-color: #D3D3D3; /* Slightly darker gray on hover */
     cursor: pointer; /* Changes cursor to pointer */
 }
 
