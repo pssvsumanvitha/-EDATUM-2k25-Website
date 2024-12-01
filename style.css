@@ -1720,4 +1720,37 @@ body {
     display: none; /* Hide zoomed images on mobile */
   }
 }
+/* Add background image to EventsList */
+.EventsList {
+  background-image: url('sumaimg2.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  padding: 20px; /* Adds space inside the container */
+  color: white; /* Ensures text is visible on a dark background */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+/* Style the EventDetails for better readability */
+.EventDetails {
+  background: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent black background */
+  padding: 20px;
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+/* Button Styles */
+.button {
+  background-color: #0077b5;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005580;
+}
+
 
