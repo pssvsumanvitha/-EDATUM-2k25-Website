@@ -195,6 +195,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
 }
 .EventText {
   text-align: center;
@@ -222,7 +223,6 @@ html {
   z-index: 2;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
 }
 .EventPic {
   width: 50%;
