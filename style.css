@@ -1728,7 +1728,7 @@ body {
     font-size: 16px; 
     font-weight: bold; 
     text-decoration: none;
-    color:black;
+    color:var(--text-color);
     border: none; 
     border-radius: 8px; 
     transition: background-color 0.3s ease;
@@ -1737,6 +1737,7 @@ body {
 
 .btn-know-more:hover {
     cursor: pointer; /* Changes cursor to pointer */
+  
 }
 
   
