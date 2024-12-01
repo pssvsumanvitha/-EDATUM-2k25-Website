@@ -1722,11 +1722,23 @@ body {
     display: none; /* Hide zoomed images on mobile */
   }
 }
-#Eventtext{
-  font-size: 80px;
-  text-align:center;
-  padding-top: 40px;
-  font-weight: 1000;
-  font-family: Georgia, "Times New Roman", Times, serif;
+.btn-know-more {
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: white; 
+    background-color: #28a745; 
+    border: none; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+    text-align: center; 
 }
+
+.btn-know-more:hover {
+    background-color: #1e7e34; 
+    cursor: pointer; 
+}
+
   
