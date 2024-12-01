@@ -1723,22 +1723,22 @@ body {
   }
 }
 .btn-know-more {
-    display: inline-block; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    text-decoration: none; 
-    color: black; 
-    border: none; 
-    border-radius: 8px; 
-    transition: background-color 0.3s ease; 
-    text-align: center; 
+    display: inline-block; /* Makes it behave like a button */
+    padding: 10px 20px; /* Adjust padding for size */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Makes text bold */
+    text-decoration: none; /* Removes underline */
+    color: black; /* Black text color */
+    background-color: white; /* Light gray background */
+    border: none; /* Removes border */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    text-align: center; /* Centers text */
 }
 
 .btn-know-more:hover {
-
-    background-color: #D3D3D3;
-    cursor: pointer; 
+    background-color: #D3D3D3; /* Slightly darker gray on hover */
+    cursor: pointer; /* Changes cursor to pointer */
 }
 
   
