@@ -233,12 +233,12 @@ html {
   height: 350px;
   border-radius: 11px 11px;
   transition: all 0.2s linear;
-  box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
+  box-shadow: 10px 12px 20px rgba(150, 100, 200, 0.956);
 
 }
 .EventPic img:hover {
   transform: translatey(-11px);
-  box-shadow: 14px 16px 20px rgba(94, 213, 221, 0.956);
+  box-shadow: 10px 12px 20px rgba(120, 60, 180, 0.956)
 }
 .EventDetails {
   font-family: "Courier New", Courier, monospace;
