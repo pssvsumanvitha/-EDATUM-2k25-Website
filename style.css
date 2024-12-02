@@ -1723,5 +1723,18 @@ body {
     display: none; /* Hide zoomed images on mobile */
   }
 }
+.text-box {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(150, 100, 200, 0.6); /* Semi-transparent purple */
+  border-radius: 15px; /* Rounded corners */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  box-shadow: 0 8px 20px rgba(150, 100, 200, 0.5); /* Glowing shadow */
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
 
   
