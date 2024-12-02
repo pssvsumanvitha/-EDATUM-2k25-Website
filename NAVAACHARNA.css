@@ -56,7 +56,7 @@ body {
 .EventPic img {
   width: 550px;
   height: 350px;
-  box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
+  box-shadow: 9px 8px 20px rgba(150, 100, 200, 0.956);
 }
 .EventDetails {
   padding-top: 8%;
@@ -98,6 +98,7 @@ body {
   margin-left: 0;
   text-decoration: none;
   text-decoration-style: none;
+  box-shadow: 0px 0px 20px rgba(41, 90, 147, 0.956);
 }
 .Registration a {
   padding: 20px 10px;
@@ -112,13 +113,14 @@ body {
   font-size: 100px;
   font-family: "Noto Sans Meetei Mayek", sans-serif;
   font-weight: bolder;
-  background-image: linear-gradient(to bottom, #6abbcc, #012d37, #000e33);
+  background-image: linear-gradient(to top, #8d55cd, #422374, #450199);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   position: relative;
   margin: 0%;
   margin-bottom: -5%;
+  filter: drop-shadow(2px 2px 2px white);
 }
 
 .Eventline {
@@ -134,7 +136,6 @@ body {
   .EventPic img {
     width: 400px;
     height: 250px;
-    box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
   }
   .EventPic h3 {
     font-size: 70px;
@@ -155,7 +156,6 @@ body {
   .EventPic img {
     width: 500px;
     height: 350px;
-    box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
   }
 }
 
@@ -163,7 +163,6 @@ body {
   .EventPic img {
     width: 400px;
     height: 250px;
-    box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
   }
 
   .EventDetails {
@@ -198,7 +197,6 @@ body {
   .EventPic img {
     width: 240px;
     height: 150px;
-    box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
   }
   .EventDetails h1 {
     font-size: 30px;
@@ -213,7 +211,7 @@ body {
   }
   .EventPic h3 {
     font-size: 50px;
-    margin-bottom: -20%;
+    margin-bottom: -12%;
   }
   #nav-bar {
     width: 100vw;

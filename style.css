@@ -196,7 +196,6 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
 }
 .EventText {
   text-align: center;
@@ -233,12 +232,11 @@ html {
   height: 350px;
   border-radius: 11px 11px;
   transition: all 0.2s linear;
-  box-shadow: 10px 12px 20px rgba(150, 100, 200, 0.956);
-
+  box-shadow: 9px 8px 20px rgba(150, 100, 200, 0.956);
 }
 .EventPic img:hover {
   transform: translatey(-11px);
-  box-shadow: 10px 12px 20px rgba(120, 60, 180, 0.956)
+  box-shadow: 10px 12px 20px rgba(120, 60, 180, 0.956);
 }
 .EventDetails {
   font-family: "Courier New", Courier, monospace;
@@ -385,12 +383,13 @@ html {
   font-size: 100px;
   font-family: "Noto Sans Meetei Mayek", sans-serif;
   font-weight: bolder;
-  background-image: linear-gradient(to bottom, #9cdae7, #044554, #000e33);
+  background-image: linear-gradient(to top, #8d55cd, #422374, #450199);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   position: relative;
   margin: 0%;
+  filter: drop-shadow(2px 2px 2px var(--text-color));
 }
 
 @media only screen and (min-width: 1440px) {
@@ -424,7 +423,6 @@ html {
   .EventPic img {
     width: 500px;
     height: 350px;
-    box-shadow: 10px 12px 20px rgba(103, 203, 239, 0.956);
   }
 }
 
@@ -432,7 +430,6 @@ html {
   .EventPic img {
     width: 400px;
     height: 250px;
-    box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
     transition: none;
   }
   .EventsList {
@@ -472,7 +469,6 @@ html {
   .EventPic img {
     width: 240px;
     height: 150px;
-    box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
     transition: none;
   }
   .EventDetails h1 {
@@ -499,18 +495,15 @@ html {
 
 @media only screen and (max-width: 400px) {
   .EventPic img {
-    box-shadow: 11px 12px 20px rgba(100, 226, 235, 0.956);
   }
 }
 @media only screen and (max-width: 435px) {
   .EventPic img {
-    box-shadow: 10px 12px 20px rgba(98, 237, 223, 0.956);
   }
 }
 
 @media only screen and(max-width: 480px) {
   .EventPic img {
-    box-shadow: 10px 12px 20px rgba(98, 237, 223, 0.956);
     transition: none;
   }
 }
@@ -520,7 +513,6 @@ html {
     height: auto;
   }
   .EventPic img {
-    box-shadow: 10px 12px 20px rgba(98, 237, 223, 0.956);
   }
 }
 
@@ -919,12 +911,12 @@ div:after {
   color: var(--text-color) !important; /* Use theme text color */
   font-weight: bold;
 }
-  .Registration a {
-    margin-top: 1.5vh;
-    padding: 2% 4%;
-    border: 2px var(--text-color) solid;
-    border-radius: 12px;
-  }
+.Registration a {
+  margin-top: 1.5vh;
+  padding: 2% 4%;
+  border: 2px var(--text-color) solid;
+  border-radius: 12px;
+}
 @media only screen and (max-width: 480px) {
   .Registration a {
     margin-top: 1.5vh;
@@ -1723,7 +1715,3 @@ body {
     display: none; /* Hide zoomed images on mobile */
   }
 }
-
-
-
-  
