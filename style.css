@@ -233,7 +233,8 @@ html {
   height: 350px;
   border-radius: 11px 11px;
   transition: all 0.2s linear;
-  box-shadow: 10px 12px 20px rgba(94, 213, 221, 0.956);
+  box-shadow: rgba(170, 120, 180, 0.956)
+
 }
 .EventPic img:hover {
   transform: translatey(-11px);
