@@ -1723,5 +1723,20 @@ body {
     display: none; /* Hide zoomed images on mobile */
   }
 }
+.glass-overlay {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(200, 150, 230, 0.1); /* Light purple with transparency */
+  border: 1px solid rgba(200, 150, 230, 0.3); /* Subtle purple border */
+  border-radius: 15px; /* Smooth edges */
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  box-shadow: 0 8px 32px rgba(200, 150, 230, 0.2); /* Light purple shadow */
+  color: white; /* Text color for contrast */
+  font-family: Arial, sans-serif;
+  text-align: center; /* Center the content */
+}
+
 
   
