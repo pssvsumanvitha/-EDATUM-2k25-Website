@@ -1724,35 +1724,19 @@ body {
   }
 }
 .glass-overlay {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 30px;
-  background: linear-gradient(
-    to right,
-    rgba(200, 150, 230, 0.2),
-    rgba(180, 120, 220, 0.2)
-  ); /* Soft gradient for depth */
-  border: 1px solid rgba(200, 150, 230, 0.4); /* Elegant purple border */
-  border-radius: 20px; /* Smooth, modern corners */
-  backdrop-filter: blur(15px); /* Enhanced frosted effect */
-  -webkit-backdrop-filter: blur(15px); /* Safari compatibility */
-  box-shadow: 0 10px 40px rgba(200, 150, 230, 0.3); /* Glowing purple shadow */
-  color: white; /* Contrast text */
-  font-family: 'Poppins', sans-serif; /* Modern typography */
+  max-width: 500px; /* Smaller width */
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(200, 150, 230, 0.2); /* Light purple background */
+  border: 1px solid rgba(200, 150, 230, 0.4); /* Subtle border */
+  border-radius: 15px; /* Slightly smaller border radius */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+  color: white;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
-  line-height: 1.5;
-}
-.glass-overlay:hover {
-  transform: scale(1.05); /* Slightly enlarges the box */
-  background: linear-gradient(
-    to right,
-    rgba(200, 150, 230, 0.4),
-    rgba(180, 120, 220, 0.4)
-  ); /* Intensifies the background on hover */
-  box-shadow: 0 15px 50px rgba(200, 100, 255, 0.8), 
-              0 0 20px rgba(255, 200, 255, 0.8), 
-              0 0 30px rgba(150, 50, 250, 0.9); /* Purple shine effect */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  line-height: 1.4;
 }
 
 
