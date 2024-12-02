@@ -1732,8 +1732,8 @@ body {
   border-radius: 15px; /* Slightly smaller border radius */
   backdrop-filter: blur(10px); /* Frosted glass effect */
   -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
   color: white;
-  font-family: 'Poppins', sans-serif;
   text-align: center;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
   line-height: 1.4;
