@@ -1724,20 +1724,21 @@ body {
   }
 }
 .glass-overlay {
-  max-width: 500px; /* Smaller width */
+  max-width: 500px; 
   margin: 20px auto;
   padding: 20px;
-  background: rgba(200, 150, 230, 0.2); /* Light purple background */
-  border: 1px solid rgba(200, 150, 230, 0.4); /* Subtle border */
-  border-radius: 15px; /* Slightly smaller border radius */
-  backdrop-filter: blur(10px); /* Frosted glass effect */
-  -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  background: rgba(200, 150, 230, 0.2); 
+  border: 1px solid rgba(200, 150, 230, 0.4); 
+  border-radius: 15px; 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
   color: white;
   text-align: center;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
   line-height: 1.4;
 }
+
 
 
 
