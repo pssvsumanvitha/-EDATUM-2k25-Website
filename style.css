@@ -1743,6 +1743,10 @@ body {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
   line-height: 1.5;
 }
+.glass-overlay:hover {
+  transform: scale(1.05); /* Slightly enlarges the box */
+  box-shadow: 0 15px 50px rgba(200, 150, 230, 0.5); /* Enhanced glow on hover */
+}
 
 
 
