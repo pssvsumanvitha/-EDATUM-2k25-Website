@@ -1723,22 +1723,6 @@ body {
     display: none; /* Hide zoomed images on mobile */
   }
 }
-.glass-overlay {
-  max-width: 500px; 
-  margin: 20px auto;
-  padding: 20px;
-  background: rgba(200, 150, 230, 0.2); 
-  border: 1px solid rgba(200, 150, 230, 0.4); 
-  border-radius: 15px; 
-  backdrop-filter: blur(10px); 
-  -webkit-backdrop-filter: blur(10px); 
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
-  color: white;
-  text-align: center;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
-  line-height: 1.4;
-}
-
 
 
 
